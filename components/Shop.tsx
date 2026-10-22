@@ -380,12 +380,6 @@ export function Shell({ children }: { children: ReactNode }) {
             © 2026 Aulla Design ·{" "}
             {t("نسخة للمراجعة", "Review edition")}
           </span>
-          <span>
-            {t(
-              "الشعار والصور المرجعية بإذن · رسومات التجربة معلّمة",
-              "Permissioned logo and reference photos · Labelled demo schematics",
-            )}
-          </span>
         </div>
       </footer>
       <nav
