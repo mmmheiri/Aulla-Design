@@ -14,7 +14,7 @@ await fs.mkdir('public/media/catalogue',{recursive:true});
 const manifest={};
 for(const p of products){
  const sourceOriginal=corrected[p.id]??'/catalogue-2d/'+p.id+'-v5-pose.webp';
- const cutout='/catalogue-transparent/'+p.id+(p.id==='kKLpmOxZspGNMmQFbaYJ'?'-v6-side-lace':p.id==='SoQvVUKJ4KX4igEPHaq4'?'-v2-colour':p.id==='lnPglpYAhuumNm2wHhtA'?'-v2-no-shayla':p.id==='afW0h6iCRpPhAA77FwpR'?'-v2-original-cuffs':'-v1')+'.png';
+ const cutout='/catalogue-transparent/'+p.id+(p.id==='kKLpmOxZspGNMmQFbaYJ'?'-v7-worn-shayla':p.id==='SoQvVUKJ4KX4igEPHaq4'?'-v2-colour':p.id==='lnPglpYAhuumNm2wHhtA'?'-v2-no-shayla':p.id==='afW0h6iCRpPhAA77FwpR'?'-v2-original-cuffs':'-v1')+'.png';
  const original=await fs.access('public'+cutout).then(()=>cutout).catch(()=>sourceOriginal);
  const raw=await fs.readFile('public'+original), hash=createHash('sha256').update(raw).update('detail-v3-lossless').digest('hex').slice(0,12);
  const renditions=[];
