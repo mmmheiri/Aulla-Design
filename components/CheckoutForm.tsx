@@ -1,5 +1,6 @@
 "use client";
 import {RequiredMark} from './RequiredMark';
+import {lineKey} from '../lib/commerce';
 import {useEffect,useState} from 'react';
 import Link from 'next/link';
 import {OrderDocument} from './OrderDocument';
@@ -19,7 +20,7 @@ type Attempt={requestKey:string;trackingToken:string};
 const randomToken=()=>Array.from(crypto.getRandomValues(new Uint8Array(32)),x=>x.toString(16).padStart(2,'0')).join('');
 
 export function CheckoutForm(){
- const {cart,products,locale,measurements}=useShop(),ar=locale==='ar',t=(a:string,e:string)=>ar?a:e;
+ const {cart,setCart,products,locale,measurements}=useShop(),ar=locale==='ar',t=(a:string,e:string)=>ar?a:e;
  const [config,setConfig]=useState<Config|null>(null),[quote,setQuote]=useState<Quote|null>(null);
  const [quoteError,setQuoteError]=useState(''),[quoteRetry,setQuoteRetry]=useState(0);
  const [kinds,setKinds]=useState<Record<number,string>>({}),[custom,setCustom]=useState(false);
@@ -31,7 +32,7 @@ export function CheckoutForm(){
  useEffect(()=>{commerce('config').then(setConfig).catch(e=>setError(e.message));},[]);
  useEffect(()=>{let cancelled=false;setQuote(null);setQuoteError('');if(cart.length)commerce('quote',{lines:JSON.parse(serialized)}).then(q=>{if(!cancelled)setQuote(q);}).catch(e=>{if(!cancelled)setQuoteError(e.message);});return()=>{cancelled=true};},[serialized,cart.length,quoteRetry]);
  const date=(value:number)=>new Intl.DateTimeFormat(ar?'ar-AE':'en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Dubai'}).format(value);
- async function submit(e:React.FormEvent){e.preventDefault();if(busy)return;setBusy(true);setError('');try{const key=attempt||{requestKey:crypto.randomUUID(),trackingToken:randomToken()};setAttempt(key);const result=await commerce('orders',{...key,lines,email,delivery,method,...(needsMeasurements?{measurements:{unit,values:Object.fromEntries(Object.entries(measure).map(([k,v])=>[k,Number(v)]))}}:{})});setOrder({...result,token:key.trackingToken});}catch(e){setError((e as Error).message);}finally{setBusy(false);}}
+ async function submit(e:React.FormEvent){e.preventDefault();if(busy)return;setBusy(true);setError('');try{const key=attempt||{requestKey:crypto.randomUUID(),trackingToken:randomToken()};setAttempt(key);const result=await commerce('orders',{...key,lines,email,delivery,method,...(needsMeasurements?{measurements:{unit,values:Object.fromEntries(Object.entries(measure).map(([k,v])=>[k,Number(v)]))}}:{})});setOrder({...result,token:key.trackingToken});setCart(current=>current.flatMap(line=>{const purchased=cart.find(item=>lineKey(item)===lineKey(line));const quantity=line.quantity-(purchased?.quantity||0);return quantity>0?[{...line,quantity}]:[];}));requestAnimationFrame(()=>{const heading=document.querySelector<HTMLElement>('.checkout-page h1');if(heading){heading.tabIndex=-1;heading.focus();}});}catch(e){setError((e as Error).message);}finally{setBusy(false);}}
  async function pay(){setBusy(true);setError('');try{const result=await commerce('payment',{token:order!.token});location.assign(result.redirectUrl);}catch(e){setError((e as Error).message);}finally{setBusy(false);}}
  if(order)return <section className="container checkout-page"><PageTitle title={t('طلب اختبار محفوظ','Test order saved')}/><p className="notice">{t('حفظ الطلب لا يعني تأكيد الدفع. يتحقق الخادم من حالة Ziina.','Saving the order does not confirm payment. The server verifies Ziina.')}</p><div className="order-summary"><bdi>{order.id}</bdi><Money value={order.totalFils/100} locale={locale}/><p>{t('شحنة واحدة · موعد تجهيز تجريبي: ','Single shipment · Test ready date: ')}{date(order.shipAt)}</p>{method==='ziina'?<button className="button" disabled={busy||!config?.ziina} onClick={pay}>{t('الانتقال إلى Ziina — اختبار فقط','Open Ziina — test only')}</button>:<><p>{t('بانتظار التحويل ومراجعة الإدارة','Awaiting transfer and admin review')}</p><p>{config?.bank?.beneficiary} · {config?.bank?.name}</p><bdi>{config?.bank?.iban}</bdi></>}</div><p><Link className="text-link" href={'/track/#'+order.token}>{t('احفظي رابط متابعة الطلب','Save your order tracking link')}</Link></p><OrderDocument token={order.token}/>{error&&<p role="alert">{error}</p>}</section>;
  return <section className="container checkout-page atelier-checkout"><PageTitle title={t('إتمام الطلب','Checkout')}/><p className="checkout-test-note">{t('تجربة للمراجعة · بيانات اختبار فقط · لا دفع حي أو رسائل','Review checkout · Use test details · No live payments or messages')}</p>{!cart.length?<div className="empty"><p>{t('اختاري قطعتك أولًا.','Choose your piece first.')}</p><Link className="button" href="/collection/">{t('تصفحي المجموعة','Explore the collection')}</Link></div>:<form className="checkout-layout" aria-busy={busy} onSubmit={submit} onInvalidCapture={e=>{const input=e.target as HTMLElement;const section=input.closest('details');if(section&&!section.open){section.open=true;requestAnimationFrame(()=>input.focus());}}}>

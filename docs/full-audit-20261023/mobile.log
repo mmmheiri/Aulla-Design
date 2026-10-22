@@ -1,0 +1,7 @@
+PASS Gulf delivery selects, country flags, phone prefixes and address types
+PASS Optional map pin and denied geolocation recovery
+PASS Checkout layouts and font sizes in both directions, phone sizes and landscape
+PASS Header scroll direction and focus recovery
+PASS Names directly under garments, identical orbit direction and small-phone overflow
+PASS Packaging rear-card click, drag and reduced motion
+PASS Cloth movement remains rendered during pointer selection and safely falls back without WebGL

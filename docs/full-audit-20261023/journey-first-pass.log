@@ -1,0 +1,10 @@
+PASS Public journeys: 320/390/1440, Arabic/English, price weight, brand icon and retired routes
+PASS Inline magnifier, native swiping and dot navigation replace the lightbox
+PASS Hero dots, no sizes, controlled orbit motion and reduced motion; mobile logo spacing
+FAIL Made-to-measure details start on the product and reach checkout without re-entry or local persistence locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByLabel('Abaya length (cm)', { exact: true })[22m
+
+PASS Admin/image routes reject unauthenticated and cross-origin writes
+PASS Authenticated catalogue: upload, draft, publish, storefront, persistent edits and archive
+PASS No browser errors or external requests

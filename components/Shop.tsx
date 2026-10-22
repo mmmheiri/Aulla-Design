@@ -90,6 +90,8 @@ export function ShopProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let cancelled=false;
     async function restore(){
+    // Restore language before waiting for catalogue reconciliation.
+    try{const savedLocale=JSON.parse(localStorage.getItem("aulla-preview-v1")||"{}").locale;if(savedLocale==="ar"||savedLocale==="en")setLocale(savedLocale);}catch{/* The existing restore handler reports unavailable storage. */}
     let current=shopProducts;
     try{
       const response=await fetch('/api/commerce/catalogue/',{cache:'no-store',signal:AbortSignal.timeout(10000)});
