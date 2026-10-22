@@ -8,3 +8,4 @@ Both worn-model and hero sources are versioned v6-side-lace. Original inputs rem
 `nThe final worn-model image is v7-worn-shayla: the owner requested the plain shayla to be worn on the head. The hero remains v6-side-lace.
 Final owner styling: v8-wrapped-shayla model uses the head-and-neck wrap of the velvet reference, entirely plain. Hero v7-no-shayla displays only the abaya, no scarf.
 Latest owner decision supersedes scarf styling: model v9-no-shayla and hero v7-no-shayla both show the abaya without a shayla. No scarf recolouring change is included.
+Final fit refinement: model v10-straight-fit reduces excess width; hero v8-visible-side-lace makes the side lace visible with a straighter silhouette. Both remain without shayla.
