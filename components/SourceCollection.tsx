@@ -17,6 +17,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useShop, PageTitle } from "./Shop";
 import {PageDots} from "./PageDots";
+import {useSwipe} from "./useSwipe";
 import {ImageLens} from "./ImageLens";
 import {RelatedPieces} from "./RelatedPieces";
 import {CustomMeasurements} from './CustomMeasurements';
@@ -130,8 +131,6 @@ export function SourceDetail({ id,initialProduct }: { id: string;initialProduct?
     setCart(c=>normalizeCart([...c,{id,size,options,quantity:1}],products));
     setSelectionError('');setAdded(true);openBag();notice(t('أُضيفت إلى سلة المعاينة','Added to your preview bag'));
   };
-  const start = useRef<{ x: number; y: number } | null>(null);
-  const dragged = useRef(false);
   const imageRef = useRef<HTMLImageElement>(null);
   useEffect(() => {
     const image = imageRef.current;
@@ -141,6 +140,7 @@ export function SourceDetail({ id,initialProduct }: { id: string;initialProduct?
     setIndex((v) => (v + delta + p.images.length) % p.images.length);
     setFailed(false);setZoom(false);
   };
+  const gallerySwipe=useSwipe(move,locale==="ar",zoom);
   return (
     <section className="container source-detail">
       <Link className="text-link" href="/collection/">
@@ -150,24 +150,8 @@ export function SourceDetail({ id,initialProduct }: { id: string;initialProduct?
         <div className="source-gallery">
           <div
             className="source-stage"
-            onTouchStart={(e) => {
-              if(zoom)return;
-              start.current = {
-                x: e.touches[0].clientX,
-                y: e.touches[0].clientY,
-              };
-              dragged.current = false;
-            }}
-            onTouchEnd={(e) => {
-              if (!start.current) return;
-              const dx = e.changedTouches[0].clientX - start.current.x,
-                dy = e.changedTouches[0].clientY - start.current.y;
-              if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
-                dragged.current = true;
-                move((dx < 0 ? 1 : -1) * (locale === "ar" ? -1 : 1));
-              }
-              start.current = null;
-            }}
+            {...gallerySwipe}
+            style={{touchAction:zoom?'auto':'pan-y'}}
           >
             {failed ? (
               <div className="media-fallback" role="status">
@@ -183,7 +167,7 @@ export function SourceDetail({ id,initialProduct }: { id: string;initialProduct?
                 </button>
               </div>
             ) : (
-<ImageLens key={index} active={zoom} onChange={active=>{if(!dragged.current)setZoom(active);dragged.current=false;}} label={t("تكبير بالعدسة","Magnify image")} closeLabel={t("إغلاق العدسة","Close magnifier")} detail={index===0&&colour!==null?<ColourModel id={id} code={colour} alt=""/>:<img src={index===0?(burgundy||original.managed?modelSrc:catalogueOriginal(id)):p.images[index].local!} alt=""/>}>
+<ImageLens key={index} active={zoom} onChange={setZoom} label={t("تكبير بالعدسة","Magnify image")} closeLabel={t("إغلاق العدسة","Close magnifier")} detail={index===0&&colour!==null?<ColourModel id={id} code={colour} alt=""/>:<img src={index===0?(burgundy||original.managed?modelSrc:catalogueOriginal(id)):p.images[index].local!} alt=""/>}>
                 {index===0&&colour!==null?<ColourModel id={id} code={colour} alt={sourceName(p,locale)+" · "+colour}/>:<img
                   ref={imageRef}
                   key={index + "-" + retry}
