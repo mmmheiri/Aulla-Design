@@ -259,40 +259,40 @@
     "heroApproved": false
   },
   "kKLpmOxZspGNMmQFbaYJ": {
-    "original": "/catalogue-transparent/kKLpmOxZspGNMmQFbaYJ-v7-worn-shayla.png",
+    "original": "/catalogue-transparent/kKLpmOxZspGNMmQFbaYJ-v8-wrapped-shayla.png",
     "sourceOriginal": "/catalogue-2d/kKLpmOxZspGNMmQFbaYJ-v6-cuffs.png",
     "transparent": true,
-    "originalBytes": 1564542,
-    "revision": "1fedd4b7c004",
+    "originalBytes": 1496670,
+    "revision": "89cd9c24339c",
     "renditions": [
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-1fedd4b7c004-320.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-89cd9c24339c-320.webp",
         "width": 320,
         "height": 400,
-        "bytes": 86120
+        "bytes": 83156
       },
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-1fedd4b7c004-640.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-89cd9c24339c-640.webp",
         "width": 640,
         "height": 800,
-        "bytes": 315326
+        "bytes": 306438
       },
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-1fedd4b7c004-960.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-89cd9c24339c-960.webp",
         "width": 960,
         "height": 1200,
-        "bytes": 711772
+        "bytes": 689388
       },
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-1fedd4b7c004-1122.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-89cd9c24339c-1122.webp",
         "width": 1122,
         "height": 1402,
-        "bytes": 923776
+        "bytes": 892138
       }
     ],
-    "hero": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-hero-a168a62b66bd.png",
-    "heroOriginal": "/arc-cutouts/kKLpmOxZspGNMmQFbaYJ-v6-side-lace.png",
-    "heroRevision": "a168a62b66bd",
+    "hero": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-hero-271dbaa2c1c8.png",
+    "heroOriginal": "/arc-cutouts/kKLpmOxZspGNMmQFbaYJ-v7-no-shayla.png",
+    "heroRevision": "271dbaa2c1c8",
     "heroApproved": false
   },
   "knwEQbiwWA9RLQ6QirLB": {
