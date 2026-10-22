@@ -259,40 +259,40 @@
     "heroApproved": false
   },
   "kKLpmOxZspGNMmQFbaYJ": {
-    "original": "/catalogue-transparent/kKLpmOxZspGNMmQFbaYJ-v5-smooth-plain-shayla.png",
+    "original": "/catalogue-transparent/kKLpmOxZspGNMmQFbaYJ-v6-side-lace.png",
     "sourceOriginal": "/catalogue-2d/kKLpmOxZspGNMmQFbaYJ-v6-cuffs.png",
     "transparent": true,
-    "originalBytes": 1698745,
-    "revision": "d4de810e5910",
+    "originalBytes": 1657649,
+    "revision": "38a6411c57a9",
     "renditions": [
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-d4de810e5910-320.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-38a6411c57a9-320.webp",
         "width": 320,
         "height": 400,
-        "bytes": 103336
+        "bytes": 90958
       },
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-d4de810e5910-640.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-38a6411c57a9-640.webp",
         "width": 640,
         "height": 800,
-        "bytes": 375090
+        "bytes": 338718
       },
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-d4de810e5910-960.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-38a6411c57a9-960.webp",
         "width": 960,
         "height": 1200,
-        "bytes": 819292
+        "bytes": 760194
       },
       {
-        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-d4de810e5910-1122.webp",
+        "src": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-38a6411c57a9-1122.webp",
         "width": 1122,
         "height": 1402,
-        "bytes": 1057314
+        "bytes": 996676
       }
     ],
-    "hero": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-hero-ec1fbf57a4d9.png",
-    "heroOriginal": "/arc-cutouts/kKLpmOxZspGNMmQFbaYJ-v5-smooth-plain-shayla.png",
-    "heroRevision": "ec1fbf57a4d9",
+    "hero": "/media/catalogue/kKLpmOxZspGNMmQFbaYJ-hero-a168a62b66bd.png",
+    "heroOriginal": "/arc-cutouts/kKLpmOxZspGNMmQFbaYJ-v6-side-lace.png",
+    "heroRevision": "a168a62b66bd",
     "heroApproved": false
   },
   "knwEQbiwWA9RLQ6QirLB": {

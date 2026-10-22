@@ -1,5 +1,7 @@
-# Reem image correction — 23 October 2026
-Owner clarified: the shayla is entirely plain; lace belongs to the abaya front edges and sleeve ends. The abaya has no designed pleats or prominent creases. Generated v5 worn and hero cutouts apply these corrections, superseding the unshipped v3/v4 drafts.
-Original source photographs are untouched. Generated full-length proportions remain inferred, not a verified pattern specification.
-Final sources: catalogue-transparent/kKLpmOxZspGNMmQFbaYJ-v5-smooth-plain-shayla.png and arc-cutouts/kKLpmOxZspGNMmQFbaYJ-v5-smooth-plain-shayla.png.
-Reviewed mobile rendered image and verified new rendition selection, decoding, colour canvas and no horizontal overflow at 390px. Packaging, other products and prices unchanged.
+# Reem imagery correction
+
+Owner supplied five full garment photographs on 2026-10-23. These supersede the earlier inferred v5 design.
+
+The front is plain, with lace on the outer side seams below the arms and at sleeve ends. The shayla is plain. The cloth is smooth, without designed pleats. The generated v6 assets use the muted slate grey-blue visible in those photographs. They are generated catalogue representations; exact shade remains subject to lighting and owner review.
+
+Both worn-model and hero sources are versioned v6-side-lace. Original inputs remain preserved and the private supplied photographs have not been published. Mobile 390px rendition decoding, horizontal overflow, and colour-preview activation passed locally. Hosted verification follows deployment.
