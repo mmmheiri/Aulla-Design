@@ -23,3 +23,15 @@
 .fabric-original-chart { display:block; max-width:100%; height:auto; margin-block:16px; }
 @media (hover:hover) and (pointer:fine) { .fabric-swatch:hover { border-color:var(--line-strong); background:var(--sage); } }
 @media (prefers-reduced-motion:no-preference) { .fabric-swatch { transition:background-color 140ms,border-color 140ms; } }
+
+/* Horizontal intent changes charts; vertical scrolling stays native. */
+.fabric-swipe-window{overflow:hidden;touch-action:pan-y;cursor:grab}
+.fabric-swipe-window:active{cursor:grabbing}
+.fabric-pages{touch-action:pan-y}
+.fabric-swipe-window .fabric-swatch{user-select:none;-webkit-user-select:none}
+.fabric-swipe-window[data-slide="1"]{--colour-enter:28px}
+.fabric-swipe-window[data-slide="-1"]{--colour-enter:-28px}
+@keyframes fabric-chart-enter{from{opacity:.5;transform:translateX(var(--colour-enter))}to{opacity:1;transform:translateX(0)}}
+@media(prefers-reduced-motion:no-preference){.fabric-swipe-window .fabric-colour-grid{animation:fabric-chart-enter .22s ease-out}}
+
+.fabric-swipe-window .fabric-colour-grid{touch-action:pan-y}
