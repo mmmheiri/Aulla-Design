@@ -1,0 +1,33 @@
+.garment-review { padding-block: 32px 64px; }
+.garment-review .page-heading { margin-block: 24px 16px; }
+.garment-review p { font-size: 16px; }
+.garment-verdict { max-width: 75ch; color: var(--ink); }
+.garment-picker { display: grid; gap: 8px; max-width: 420px; margin-block: 24px; }
+.garment-picker select { font-size: 16px; min-height: 48px; width: 100%; }
+.garment-comparison { display: grid; grid-template-columns: 1fr 1.4fr; gap: 24px; align-items: start; margin-block: 32px; }
+.garment-comparison figure { min-width: 0; margin: 0; }
+.garment-reference, .garment-stage { width: 100%; height: 520px; border-radius: 16px; background: var(--surface); }
+.garment-reference { display: block; object-fit: contain; }
+.garment-stage { position: relative; overflow: hidden; background: var(--sage); }
+.garment-stage > img, .garment-canvas { width: 100%; height: 100%; position: absolute; inset: 0; }
+.garment-stage > img { object-fit: contain; }
+.garment-canvas { visibility: hidden; }
+.garment-stage[data-state="ready"] .garment-canvas { visibility: visible; }
+.garment-canvas canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+.garment-launch { position: absolute; inset: 0; display: flex; align-items: end; justify-content: center; padding: 24px; }
+.garment-message { position: absolute; inset: 0; margin: 0; padding: 24px; display: flex; gap: 12px; flex-wrap: wrap; align-content: center; justify-content: center; text-align: center; background: var(--sage); }
+.garment-message p { flex-basis: 100%; }
+.garment-comparison figcaption { margin-block: 12px; font-weight: 500; }
+.garment-controls { display: flex; flex-wrap: wrap; gap: 8px; }
+.garment-controls button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line-strong); background: var(--surface); border-radius: 10px; }
+.garment-controls button:hover:enabled { background: var(--blue); }
+.garment-review .garment-help { margin-block: 12px 0; }
+.garment-next { max-width: 75ch; padding-top: 24px; border-top: 1px solid var(--line); }
+.garment-next h2 { margin-block: 0 16px; }
+@media (max-width: 760px) {
+  .garment-review { padding-block: 24px 40px; }
+  .garment-comparison { grid-template-columns: 1fr; gap: 28px; }
+  .garment-reference { height: 360px; }
+  .garment-stage { height: 420px; }
+  .garment-launch, .garment-message { padding: 16px; }
+}

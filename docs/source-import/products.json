@@ -1,0 +1,1716 @@
+{
+  "capturedAt": "2026-10-20T13:14:02.601Z",
+  "origin": "https://aulladesign.unlb.io",
+  "storeId": "lIMZLNCdE3hUXtmhwGpG0W3lMpA3",
+  "scope": "Offline extraction from the 11 previously captured homepage-linked Aulla product pages. Public source claims, not verified inventory, fabric inspection or checkout behaviour.",
+  "method": "JSON.parse of script JSON-LD and literal self.__next_f.push arguments; UTF-8 Flight framing; no eval, network requests or website JavaScript execution.",
+  "seller": {
+    "id": "lIMZLNCdE3hUXtmhwGpG0W3lMpA3",
+    "name": "AullaDesign",
+    "description": "𑁤 Orders takes 1-2 weeks\n𑁤 UAE Based | GCC shipping\n𑁤 Free delivery in UAE\n\n\n",
+    "contact": {
+      "email": "gghalia003@gmail.com",
+      "phone": "",
+      "socialMedia": {
+        "instagram": "aulladesign",
+        "whatsapp": ""
+      }
+    },
+    "policyButtonsObserved": [
+      "Terms",
+      "Privacy"
+    ],
+    "evidence": {
+      "file": ".research/aulla-import/AgSCVfoKPto5gvZLaIXS.html",
+      "sha256": "651214d929b4157fc02afad827c5e9e74307b12324724770f67c12cdc71d345b",
+      "locator": "Flight row 19, JSON path $.1.3, store.businessName/store.description/store.contact"
+    },
+    "limits": "Only selected public-facing store fields retained. Banking, payment configuration, subscription, checkout configuration and unrelated records are excluded. Contact payload presence is not proof of current reachability."
+  },
+  "products": [
+    {
+      "id": "AgSCVfoKPto5gvZLaIXS",
+      "url": "https://aulladesign.unlb.io/product/AgSCVfoKPto5gvZLaIXS",
+      "name": "عباية شهـد | ABAYA SHAHAD",
+      "description": "\nالعبايه بليزر",
+      "price": 330,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 7,
+        "lowPrice": 330,
+        "highPrice": 330,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/AgSCVfoKPto5gvZLaIXS",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "11b55v2hrmutxegixq2bwc2ag7",
+          "name": "Size",
+          "values": [
+            "50",
+            "52",
+            "54",
+            "56",
+            "58",
+            "60",
+            "تفصيل(تم إرسال المقاسات فالخاص)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "2764ll529mutxfk59lmwq5tlc1",
+          "combination": {
+            "Size": "50"
+          },
+          "description": "\nالعبايه بليزر",
+          "price": 330,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "o1kfsf0wsmutxfk59y59xvek7e",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "\nالعبايه بليزر",
+          "price": 330,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "mczmnmfdrmutxfk5963ok7pxkm",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "\nالعبايه بليزر",
+          "price": 330,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "bk5uroe2smutxfk59r7jj5ayiw",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "\nالعبايه بليزر",
+          "price": 330,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "iusxr7ly8mutxfk59x4n10t4xb",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "\nالعبايه بليزر",
+          "price": 330,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "u7q58lr9rmutxfk59q1jjrfh5b",
+          "combination": {
+            "Size": "60"
+          },
+          "description": "\nالعبايه بليزر",
+          "price": 330,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "zz9ma0ooumutxfk59krwkl32tg",
+          "combination": {
+            "Size": "تفصيل(تم إرسال المقاسات فالخاص)"
+          },
+          "description": "\nالعبايه بليزر",
+          "price": 330,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125385851-2b477ca7-a5c1-4375-8ad7-1ca8268783ce.jpg",
+          "local": "/source-images/1128758f2efb6ab5d64e.jpg",
+          "bytes": 58000,
+          "sha256": "1128758f2efb6ab5d64e4308624caff8cbbd49256049897a7a60d44eae75360b",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125385842-47a97b6a-8dc1-46ba-b5ea-df7d13c97a01.jpg",
+          "local": "/source-images/fe18a6be1030281886b2.jpg",
+          "bytes": 45100,
+          "sha256": "fe18a6be1030281886b2ecacfdb0613bc861bfce60e8073101f9c86f40be81c4",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125385851-2b477ca7-a5c1-4375-8ad7-1ca8268783ce.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125385842-47a97b6a-8dc1-46ba-b5ea-df7d13c97a01.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125385851-2b477ca7-a5c1-4375-8ad7-1ca8268783ce.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125385842-47a97b6a-8dc1-46ba-b5ea-df7d13c97a01.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/AgSCVfoKPto5gvZLaIXS.html",
+        "sha256": "651214d929b4157fc02afad827c5e9e74307b12324724770f67c12cdc71d345b",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=AgSCVfoKPto5gvZLaIXS]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "F1jpRXgfEkjY8cB2X6oG",
+      "url": "https://aulladesign.unlb.io/product/F1jpRXgfEkjY8cB2X6oG",
+      "name": " عباية اليازية | ABAYA ALYAZIA ",
+      "description": "عبايه مطرزه و مع فصوص، شغل يدوي\nالقماش: شيفون كريب ",
+      "price": 380,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 5,
+        "lowPrice": 380,
+        "highPrice": 380,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/F1jpRXgfEkjY8cB2X6oG",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "fvzap76rimutsq3wib8eanm6wm",
+          "name": "Size",
+          "values": [
+            "52",
+            "54",
+            "56",
+            "58",
+            "تفصيل(تم إرسال فالخاص)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "oss5nbputmutsr8h0jd5imov1e",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "عبايه مطرزه و مع فصوص، شغل يدوي\nالقماش: شيفون كريب ",
+          "price": 380,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "uwpr8oq6zmutsr8h0s215120vz",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "عبايه مطرزه و مع فصوص، شغل يدوي\nالقماش: شيفون كريب ",
+          "price": 380,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "8avynpm67mutsr8h0fz4mf7dlz",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "عبايه مطرزه و مع فصوص، شغل يدوي\nالقماش: شيفون كريب ",
+          "price": 380,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "9b0560zxdmutsr8h043irgeoi6",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "عبايه مطرزه و مع فصوص، شغل يدوي\nالقماش: شيفون كريب ",
+          "price": 380,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "tnu8sbmgsmutsr8h0tvj7vfiti",
+          "combination": {
+            "Size": "تفصيل(تم إرسال فالخاص)"
+          },
+          "description": "عبايه مطرزه و مع فصوص، شغل يدوي\nالقماش: شيفون كريب ",
+          "price": 380,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790948782368-8eb0549f-e58f-4c15-874f-2e5988c86ad4.jpg",
+          "local": "/source-images/c68e6d06c2be4b7d81cc.jpg",
+          "bytes": 350730,
+          "sha256": "c68e6d06c2be4b7d81cc413ed7091315f2d86af43b84f5da1e2d37f4bd4251ec",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790948781632-e0a40d03-82d2-44f9-9508-c3b10cbf091f.jpg",
+          "local": "/source-images/0e3982f9e8018933bb36.jpg",
+          "bytes": 532550,
+          "sha256": "0e3982f9e8018933bb3628ee2070388518e521cd1efba3ac6cbc82d3e293cdf8",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790948782368-8eb0549f-e58f-4c15-874f-2e5988c86ad4.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790948781632-e0a40d03-82d2-44f9-9508-c3b10cbf091f.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790948782368-8eb0549f-e58f-4c15-874f-2e5988c86ad4.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790948781632-e0a40d03-82d2-44f9-9508-c3b10cbf091f.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/F1jpRXgfEkjY8cB2X6oG.html",
+        "sha256": "0734af061a88620c0be87d53ca195a341571204415460ba6c8a575bac3fcb6a9",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=F1jpRXgfEkjY8cB2X6oG]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "KUWu4eRhxapcFV8ze8w9",
+      "url": "https://aulladesign.unlb.io/product/KUWu4eRhxapcFV8ze8w9",
+      "name": " عباية مريم | ABAYA MARYAM ",
+      "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+      "price": 260,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 7,
+        "lowPrice": 260,
+        "highPrice": 260,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/KUWu4eRhxapcFV8ze8w9",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "t25buz0akmuqxoqwhj2gy6fgen",
+          "name": "Size",
+          "values": [
+            "50",
+            "52",
+            "54",
+            "56",
+            "58",
+            "60",
+            "تفصيل(تم إرسال فالخاص المقاسات)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "blv6uc8pimuqxpokc5iysd6kef",
+          "combination": {
+            "Size": "50"
+          },
+          "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+          "price": 260,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "3r1b52bhmmuqxpokcfmtn87oz5",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+          "price": 260,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "5hoyglahwmuqxpokck00zus13s",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+          "price": 260,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "g6jni1os0muqxpokcbwqwr5ebo",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+          "price": 260,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "j1jmea7wymuqxpokcb8urp4n3t",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+          "price": 260,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "ijn33thbnmuqxpokc9yitc4mvu",
+          "combination": {
+            "Size": "60"
+          },
+          "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+          "price": 260,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "7jn0uwiocmutvvlhslbrxciyjs",
+          "combination": {
+            "Size": "تفصيل(تم إرسال فالخاص المقاسات)"
+          },
+          "description": "عبايه مع الشيله دانتيل  \nالقماش: ندى كوري",
+          "price": 260,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125514668-c305352d-2851-46fe-a70a-e6598b879daf.jpg",
+          "local": "/source-images/64c19a5357c26eba58d8.jpg",
+          "bytes": 69421,
+          "sha256": "64c19a5357c26eba58d8a5314098fd511a66c4736c3d6cfaeb77c2bd32c0e4fd",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125557297-8042b01d-7910-45b1-8421-7ad4d725391a.jpg",
+          "local": "/source-images/9ba4a120ce05ff8775b9.jpg",
+          "bytes": 132815,
+          "sha256": "9ba4a120ce05ff8775b9b65c552d337dec7b55f177f9b03690256213f2c0e897",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125514668-c305352d-2851-46fe-a70a-e6598b879daf.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125557297-8042b01d-7910-45b1-8421-7ad4d725391a.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125514668-c305352d-2851-46fe-a70a-e6598b879daf.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125557297-8042b01d-7910-45b1-8421-7ad4d725391a.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/KUWu4eRhxapcFV8ze8w9.html",
+        "sha256": "4a908f44af5a5da1eaa7a9a28c44120be76ffd1f3198b635c4c297be00947f28",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=KUWu4eRhxapcFV8ze8w9]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "PclIvJotHUeGUOjqk7G5",
+      "url": "https://aulladesign.unlb.io/product/PclIvJotHUeGUOjqk7G5",
+      "name": " عباية لورا | ABAYA LORA ",
+      "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+      "price": 280,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 7,
+        "lowPrice": 280,
+        "highPrice": 280,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/PclIvJotHUeGUOjqk7G5",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "eq84hwnqemutxxd4rz2wa7t9ga",
+          "name": "Size",
+          "values": [
+            "50",
+            "52",
+            "54",
+            "56",
+            "58",
+            "60",
+            "تفصيل(تم ارسال المقاسات فالخاص)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "d4pd6jge0mutxyn53nbnr0wub4",
+          "combination": {
+            "Size": "50"
+          },
+          "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "ume33jyfumutxyn53c56g68afp",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "obyit41t4mutxyn53wuqexylhf",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "c64ciidl8mutxyn53g3oom3ogj",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "oprp7eihqmutxyn535iz6kbp98",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "76qzmf5u4mutxyn53rojgup4ll",
+          "combination": {
+            "Size": "60"
+          },
+          "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "1cbl5d4jgmutxyn53ud3yh1g2a",
+          "combination": {
+            "Size": "تفصيل(تم ارسال المقاسات فالخاص)"
+          },
+          "description": "القماش: قطن و العبايه مبطنه\nتنفع لجميع المواسم",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949239366-fe794476-1ecf-461f-afd4-64462b89713b.jpg",
+          "local": "/source-images/d53a7e580c8510cabbd3.jpg",
+          "bytes": 413680,
+          "sha256": "d53a7e580c8510cabbd3db0c3d1989dd24f1e55a47c14896e575d293e5e32bd4",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949239368-624452bc-0162-407a-8c48-fafc60f6fad2.jpg",
+          "local": "/source-images/d0f6b3291393a074554a.jpg",
+          "bytes": 316137,
+          "sha256": "d0f6b3291393a074554a4db17cea5acc6a083b6176ec7be04764376ed45fdfd8",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949239366-fe794476-1ecf-461f-afd4-64462b89713b.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949239368-624452bc-0162-407a-8c48-fafc60f6fad2.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949239366-fe794476-1ecf-461f-afd4-64462b89713b.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949239368-624452bc-0162-407a-8c48-fafc60f6fad2.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/PclIvJotHUeGUOjqk7G5.html",
+        "sha256": "308c1addc4c4193df9f6b8fb941e3026c913bad23ba370bdd5a4d04cd978b3c8",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=PclIvJotHUeGUOjqk7G5]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "SoQvVUKJ4KX4igEPHaq4",
+      "url": "https://aulladesign.unlb.io/product/SoQvVUKJ4KX4igEPHaq4",
+      "name": "عباية مـيره | ABAYA MEERA",
+      "description": "القطعه السوداء تقدرين تخلينها: ندى كوري او مخمل \n",
+      "price": 280,
+      "currency": "AED",
+      "offers": {
+        "@type": "Offer",
+        "price": 280,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "url": "https://aulladesign.unlb.io/product/SoQvVUKJ4KX4igEPHaq4",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": false,
+      "optionGroups": [],
+      "variants": [],
+      "addonGroups": [
+        {
+          "id": "de6panl7mutwshh8",
+          "name": "اختاري نوع القماش(الأسود)",
+          "required": true,
+          "minSelect": 1,
+          "maxSelect": 1,
+          "multiSelect": false,
+          "options": [
+            {
+              "id": "qii4jhk5mutwshh8",
+              "name": "مخمل",
+              "price": 0,
+              "inStock": true
+            },
+            {
+              "id": "33b0vf14mutwshh8",
+              "name": "كوري ندى",
+              "price": 0,
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791123269543-8f1a66f6-ede5-4804-806e-d7ac15049d00.jpg",
+          "local": "/source-images/cbe2f9a5fba493b72200.jpg",
+          "bytes": 71837,
+          "sha256": "cbe2f9a5fba493b7220091f322c841301138019eb541144f9209e602ce4fbe43",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791123269562-20436a14-6ea8-458c-ae8b-34ec71df7af4.jpg",
+          "local": "/source-images/b2f1bf478aa7bea93476.jpg",
+          "bytes": 89620,
+          "sha256": "b2f1bf478aa7bea93476cf8b5d83c5c323eda4893a97cd15454f9413c441d57a",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791123269543-8f1a66f6-ede5-4804-806e-d7ac15049d00.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791123269562-20436a14-6ea8-458c-ae8b-34ec71df7af4.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791123269543-8f1a66f6-ede5-4804-806e-d7ac15049d00.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791123269562-20436a14-6ea8-458c-ae8b-34ec71df7af4.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/SoQvVUKJ4KX4igEPHaq4.html",
+        "sha256": "b4dbd7c302b0737d4c16a7743f0aa4c6750447eb6ef3193773e5a923b40045e8",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=SoQvVUKJ4KX4igEPHaq4]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "afW0h6iCRpPhAA77FwpR",
+      "url": "https://aulladesign.unlb.io/product/afW0h6iCRpPhAA77FwpR",
+      "name": " عباية فاطمه | ABAYA FATMA ",
+      "description": "عبايه مع شيله مطرزه✨\nالقماش: مخمل \n🔥الأكثر طلباً🔥",
+      "price": 330,
+      "compareAtPrice": 350,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 6,
+        "lowPrice": 350,
+        "highPrice": 350,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/afW0h6iCRpPhAA77FwpR",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": false
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "m1sjn7597muqxqput1qszpharo",
+          "name": "Size",
+          "values": [
+            "50",
+            "52",
+            "54",
+            "56",
+            "58",
+            "60"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "c6pskug5pmuqxrlvl2fsbg7kwr",
+          "combination": {
+            "Size": "50"
+          },
+          "description": "عبايه مع شيله مطرزه✨\nالقماش: مخمل \n🔥الأكثر طلباً🔥",
+          "price": 350,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "gk727eqv1muqxrlvlft2pkl0yh",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "عبايه مع شيله مطرزه✨\nالقماش: مخمل \n🔥الأكثر طلباً🔥",
+          "price": 350,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "bl0v901yzmuqxrlvlxefnfffsn",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "عبايه مع شيله مطرزه✨\nالقماش: مخمل \n🔥الأكثر طلباً🔥",
+          "price": 350,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "u1ibthfbwmuqxrlvl9ojvdxmil",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "عبايه مع شيله مطرزه✨\nالقماش: مخمل \n🔥الأكثر طلباً🔥",
+          "price": 350,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "nvdwbujpvmuqxrlvli4laovsvq",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "عبايه مع شيله مطرزه✨\nالقماش: مخمل \n🔥الأكثر طلباً🔥",
+          "price": 350,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "np3sy86dzmuqxrlvl8bhevgxnt",
+          "combination": {
+            "Size": "60"
+          },
+          "description": "عبايه مع شيله مطرزه✨\nالقماش: مخمل \n🔥الأكثر طلباً🔥",
+          "price": 350,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125337814-8f71caf2-c007-49eb-b0d1-542afa0a3594.jpg",
+          "local": "/source-images/afb5e26d2d1190e3889a.jpg",
+          "bytes": 121759,
+          "sha256": "afb5e26d2d1190e3889a3683139e84b2f65831443d159a792111ca0ac4b8f705",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125337810-64afd1c3-2573-44be-b876-c1dedead3eec.jpg",
+          "local": "/source-images/e3cd24cb9e6ad6832e21.jpg",
+          "bytes": 231359,
+          "sha256": "e3cd24cb9e6ad6832e21388b0c4cba2b2a4d601495cbe7e39c13dded9d86704a",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125337814-8f71caf2-c007-49eb-b0d1-542afa0a3594.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125337810-64afd1c3-2573-44be-b876-c1dedead3eec.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125337814-8f71caf2-c007-49eb-b0d1-542afa0a3594.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791125337810-64afd1c3-2573-44be-b876-c1dedead3eec.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [
+        "Hydrated base price differs from one or more enabled variant prices; preserve the selected variant/JSON-LD offer rather than assuming base price is payable."
+      ],
+      "evidence": {
+        "file": ".research/aulla-import/afW0h6iCRpPhAA77FwpR.html",
+        "sha256": "9ab832e33a27cb51d2ac133a20bb92c0e1a046283d4d0e5144abae030dfb9857",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=afW0h6iCRpPhAA77FwpR]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "eB2ukaigB7ZRn4QmJm81",
+      "url": "https://aulladesign.unlb.io/product/eB2ukaigB7ZRn4QmJm81",
+      "name": "عباية شـوق | ABAYA SHOG",
+      "description": "القماش: ندى كوري \n",
+      "price": 280,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 7,
+        "lowPrice": 280,
+        "highPrice": 280,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/eB2ukaigB7ZRn4QmJm81",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "1ih7yzptfmutw1asa7rsbujoua",
+          "name": "Size",
+          "values": [
+            "50",
+            "52",
+            "54",
+            "56",
+            "58",
+            "60",
+            "تفصيل(يجب ارسال المقاسات فالخاص)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "ul0f41r00mutw2r8uv7p28i2jd",
+          "combination": {
+            "Size": "50"
+          },
+          "description": "القماش: ندى كوري \n",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "zrmge48zbmutw2r8uiv4s0c344",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "القماش: ندى كوري \n",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "0uqztyyrsmutw2r8ulmy7hi0p8",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "القماش: ندى كوري \n",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "y9xw64rf1mutw2r8uvolruitgt",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "القماش: ندى كوري \n",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "vizb0ku59mutw2r8u46o1ic8e1",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "القماش: ندى كوري \n",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "pshpuhnoqmutw2r8uvab59v9ol",
+          "combination": {
+            "Size": "60"
+          },
+          "description": "القماش: ندى كوري \n",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "kpzzu5yilmutw2r8u7wyw7itg1",
+          "combination": {
+            "Size": "تفصيل(يجب ارسال المقاسات فالخاص)"
+          },
+          "description": "القماش: ندى كوري \n",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [
+        {
+          "id": "sgsgty6umuqzu2p8",
+          "name": "اختاري اللون و اكتبي الرقم فالوصف",
+          "required": true,
+          "minSelect": 1,
+          "maxSelect": 0,
+          "multiSelect": true,
+          "options": [
+            {
+              "id": "cnckm2tnmuqzu2p8",
+              "name": "🎨",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947410430-878d73c1-d2ce-45b8-898f-054d7ca4620b.jpg",
+                "local": "/source-images/ffec5b205130b0659997.jpg",
+                "bytes": 444741,
+                "sha256": "ffec5b205130b0659997c786d8c356c845f0d0077287ec6f749c20d12a98dc85",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            },
+            {
+              "id": "nxxbfctmmuqzu2p8",
+              "name": "🎨",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947420430-eb1e9d1a-6dd4-4d03-ab05-13026094796b.jpg",
+                "local": "/source-images/54d175aad6af96768b26.jpg",
+                "bytes": 415890,
+                "sha256": "54d175aad6af96768b2610048b8af807546d27205851b5d9e7ec589fd7d8b37f",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            },
+            {
+              "id": "n08baoksmuqzuqms",
+              "name": "🎨",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947445722-b07310fa-c075-4560-a29c-36840c9486b3.jpg",
+                "local": "/source-images/1a8e65d122bfd5609d48.jpg",
+                "bytes": 321198,
+                "sha256": "1a8e65d122bfd5609d48f8cfdb6330f7497c381285f39a1cde8815e6e871c96e",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            },
+            {
+              "id": "reh4jlddmutw36ps",
+              "name": "نفس اللون الي فالصوره",
+              "price": 0,
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122310593-afbaf2be-83a6-4cd2-b1f0-c465b1d64ee0.jpg",
+          "local": "/source-images/ee7cb16c6fbcf228e63c.jpg",
+          "bytes": 74720,
+          "sha256": "ee7cb16c6fbcf228e63ca76e8e95dfb9b69e0e8112ee514531fa75d5d9b2c4d5",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122358717-1ea071ff-db85-4459-95d2-c3e8573471aa.jpg",
+          "local": "/source-images/0513df858243452ae3ad.jpg",
+          "bytes": 75078,
+          "sha256": "0513df858243452ae3ad56e24031ff4e07d6b1c92d8662876b6a2f4941d3fc30",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122310593-afbaf2be-83a6-4cd2-b1f0-c465b1d64ee0.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122358717-1ea071ff-db85-4459-95d2-c3e8573471aa.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122310593-afbaf2be-83a6-4cd2-b1f0-c465b1d64ee0.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122358717-1ea071ff-db85-4459-95d2-c3e8573471aa.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/eB2ukaigB7ZRn4QmJm81.html",
+        "sha256": "1aec8ce5db7a81582db3ece23797147ec0d4fdc90bed61d35186a8915ba151de",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=eB2ukaigB7ZRn4QmJm81]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "kKLpmOxZspGNMmQFbaYJ",
+      "url": "https://aulladesign.unlb.io/product/kKLpmOxZspGNMmQFbaYJ",
+      "name": " عباية ريم | ABAYA REEM ",
+      "description": "🔥الاكثر طلباً🔥 \nالقماش: ندى كوري",
+      "price": 280,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 5,
+        "lowPrice": 280,
+        "highPrice": 280,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/kKLpmOxZspGNMmQFbaYJ",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "zynajh84cmutsgy5od3xv9z8h4",
+          "name": "Size",
+          "values": [
+            "52",
+            "54",
+            "56",
+            "58",
+            "تفصيل (تم إرسال فالخاص)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "x1jpw0oidmutsizgboul7x2hhc",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "🔥الاكثر طلباً🔥 \nالقماش: ندى كوري",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "zazs8aqzvmutsizgbuka1v3sfx",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "🔥الاكثر طلباً🔥 \nالقماش: ندى كوري",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "3zn449rmemutsizgb9ho7kbs18",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "🔥الاكثر طلباً🔥 \nالقماش: ندى كوري",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "f7xt4abwrmutsizgbw5jg8i09h",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "🔥الاكثر طلباً🔥 \nالقماش: ندى كوري",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "5vlxmde76mutsizgbw0o2wv4j6",
+          "combination": {
+            "Size": "تفصيل (تم إرسال فالخاص)"
+          },
+          "description": "🔥الاكثر طلباً🔥 \nالقماش: ندى كوري",
+          "price": 280,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [
+        {
+          "id": "sgsgty6umuqzu2p8",
+          "name": "اختاري اللون و اكتبي الرقم فالوصف",
+          "required": true,
+          "minSelect": 1,
+          "maxSelect": 0,
+          "multiSelect": true,
+          "options": [
+            {
+              "id": "cnckm2tnmuqzu2p8",
+              "name": "🎨",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947410430-878d73c1-d2ce-45b8-898f-054d7ca4620b.jpg",
+                "local": "/source-images/ffec5b205130b0659997.jpg",
+                "bytes": 444741,
+                "sha256": "ffec5b205130b0659997c786d8c356c845f0d0077287ec6f749c20d12a98dc85",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            },
+            {
+              "id": "nxxbfctmmuqzu2p8",
+              "name": "🎨",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947420430-eb1e9d1a-6dd4-4d03-ab05-13026094796b.jpg",
+                "local": "/source-images/54d175aad6af96768b26.jpg",
+                "bytes": 415890,
+                "sha256": "54d175aad6af96768b2610048b8af807546d27205851b5d9e7ec589fd7d8b37f",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            },
+            {
+              "id": "n08baoksmuqzuqms",
+              "name": "🎨",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947445722-b07310fa-c075-4560-a29c-36840c9486b3.jpg",
+                "local": "/source-images/1a8e65d122bfd5609d48.jpg",
+                "bytes": 321198,
+                "sha256": "1a8e65d122bfd5609d48f8cfdb6330f7497c381285f39a1cde8815e6e871c96e",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            },
+            {
+              "id": "reh4jlddmutw36ps",
+              "name": "نفس اللون الي فالصوره",
+              "price": 0,
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791121913297-97dc9064-f488-45a2-806a-fb3af738e3f7.jpg",
+          "local": "/source-images/048b7141ef3ea467ba74.jpg",
+          "bytes": 280273,
+          "sha256": "048b7141ef3ea467ba743241acb272ad8525fcf2e97e8defd42b827198d67efc",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791121913302-ea9ae6fa-edb8-4f8a-82d3-d00521522e5b.jpg",
+          "local": "/source-images/49fc413edf3f9c04d47a.jpg",
+          "bytes": 197085,
+          "sha256": "49fc413edf3f9c04d47a6cc17b21bfe1caf50beb87e34143fc6fcfc0dd3fe401",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791121913297-97dc9064-f488-45a2-806a-fb3af738e3f7.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791121913302-ea9ae6fa-edb8-4f8a-82d3-d00521522e5b.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791121913297-97dc9064-f488-45a2-806a-fb3af738e3f7.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791121913302-ea9ae6fa-edb8-4f8a-82d3-d00521522e5b.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/kKLpmOxZspGNMmQFbaYJ.html",
+        "sha256": "ed90fa0955dd1fa3450f93e29ba2b219b14042d7dd48563436011aa01b4bc688",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=kKLpmOxZspGNMmQFbaYJ]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "knwEQbiwWA9RLQ6QirLB",
+      "url": "https://aulladesign.unlb.io/product/knwEQbiwWA9RLQ6QirLB",
+      "name": " عباية طيف  | ABAYA TAIF ",
+      "description": "عبايه مع الشيله دانتيل ",
+      "price": 250,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 5,
+        "lowPrice": 250,
+        "highPrice": 250,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/knwEQbiwWA9RLQ6QirLB",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "yfvbcoa67mutvrjmf119p93ob5",
+          "name": "Size",
+          "values": [
+            "52",
+            "54",
+            "56",
+            "58",
+            "تفصيل(تم إرسال فالخاص)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "4qs4w6qi2mutvshyw14dycqae6",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "عبايه مع الشيله دانتيل ",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "2thodgz0kmutvshywjuhy86wim",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "عبايه مع الشيله دانتيل ",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "wtyuekoinmutvshywcdzxiwk0y",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "عبايه مع الشيله دانتيل ",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "s4osmrmtwmutvshywvdzklzmgd",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "عبايه مع الشيله دانتيل ",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "9wnapjxytmutvshyw116g5914s",
+          "combination": {
+            "Size": "تفصيل(تم إرسال فالخاص)"
+          },
+          "description": "عبايه مع الشيله دانتيل ",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947857055-512c5881-6531-4c8a-9ebe-166351c07f1a.jpg",
+          "local": "/source-images/7636d26e482de3642eb8.jpg",
+          "bytes": 183985,
+          "sha256": "7636d26e482de3642eb8a2968fcda1068d2cffa9fd45dc302df6a037f93918a1",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947857142-fecfbbd0-5fad-45f1-9e5b-f9b0678648de.jpg",
+          "local": "/source-images/5245285a271e3e3baa4e.jpg",
+          "bytes": 277656,
+          "sha256": "5245285a271e3e3baa4e9a7d5eba1b9e2f0f09221b3fa645c0f8e73bbde215db",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949747621-82b8311b-cd03-494f-a925-bdfc19179fb0.jpg",
+          "local": "/source-images/85ca861ccc4bddda32b9.jpg",
+          "bytes": 168989,
+          "sha256": "85ca861ccc4bddda32b9a2f371ec34a0151c54b3b41c4aabf94d9cf6c55c6466",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947857055-512c5881-6531-4c8a-9ebe-166351c07f1a.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947857142-fecfbbd0-5fad-45f1-9e5b-f9b0678648de.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949747621-82b8311b-cd03-494f-a925-bdfc19179fb0.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947857055-512c5881-6531-4c8a-9ebe-166351c07f1a.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790947857142-fecfbbd0-5fad-45f1-9e5b-f9b0678648de.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790949747621-82b8311b-cd03-494f-a925-bdfc19179fb0.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/knwEQbiwWA9RLQ6QirLB.html",
+        "sha256": "7f4dfaf4e5653889ecc5db2676b0e8a3717777dffb272caecbd1f77dec2edeca",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=knwEQbiwWA9RLQ6QirLB]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "lnPglpYAhuumNm2wHhtA",
+      "url": "https://aulladesign.unlb.io/product/lnPglpYAhuumNm2wHhtA",
+      "name": "عباية المياسة | ABAYA ALMAYASA",
+      "description": "القماش: مخمل مبطن\n | العبايه ساده",
+      "price": 250,
+      "currency": "AED",
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": 7,
+        "lowPrice": 250,
+        "highPrice": 250,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "url": "https://aulladesign.unlb.io/product/lnPglpYAhuumNm2wHhtA",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": true,
+      "optionGroups": [
+        {
+          "id": "auo7php3gmutw8cba73eq60ocg",
+          "name": "Size",
+          "values": [
+            "50",
+            "52",
+            "54",
+            "56",
+            "58",
+            "60",
+            "تفصيل(يرجى ارسال المقاسات فالخاص)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "bz1tp6dfqmutw9i11jdbq03b5r",
+          "combination": {
+            "Size": "50"
+          },
+          "description": "القماش: مخمل مبطن\n | العبايه ساده",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "jgczz9xtzmutw9i11wggiitk1t",
+          "combination": {
+            "Size": "52"
+          },
+          "description": "القماش: مخمل مبطن\n | العبايه ساده",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "x1muup2ozmutw9i119bv2ouoes",
+          "combination": {
+            "Size": "54"
+          },
+          "description": "القماش: مخمل مبطن\n | العبايه ساده",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "122ocw9dimutw9i11lkfhjm0q9",
+          "combination": {
+            "Size": "56"
+          },
+          "description": "القماش: مخمل مبطن\n | العبايه ساده",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "9hmx2rpmxmutw9i11lztf4eswt",
+          "combination": {
+            "Size": "58"
+          },
+          "description": "القماش: مخمل مبطن\n | العبايه ساده",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "b5fqmh888mutw9i11aagv2l0it",
+          "combination": {
+            "Size": "60"
+          },
+          "description": "القماش: مخمل مبطن\n | العبايه ساده",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        },
+        {
+          "id": "ayi4a3hr7mutw9i11hr82ejmrd",
+          "combination": {
+            "Size": "تفصيل(يرجى ارسال المقاسات فالخاص)"
+          },
+          "description": "القماش: مخمل مبطن\n | العبايه ساده",
+          "price": 250,
+          "enabled": true,
+          "inStock": true,
+          "isUnlimited": true
+        }
+      ],
+      "addonGroups": [
+        {
+          "id": "h5lv7eefmutwa2g4",
+          "name": "اختاري اللون",
+          "required": true,
+          "minSelect": 1,
+          "maxSelect": 1,
+          "multiSelect": false,
+          "options": [
+            {
+              "id": "xzd030xjmutwa2g4",
+              "name": "برغندي",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122852400-b27cfd78-7098-4cc3-a3c6-264a215fd570.jpg",
+                "local": "/source-images/077c825d0111643d856b.jpg",
+                "bytes": 57945,
+                "sha256": "077c825d0111643d856b46237088e9fb3d448c2f8fc65139c3ea147e4203a878",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            },
+            {
+              "id": "kh5uc1utmutwa2g4",
+              "name": "كحلي",
+              "price": 0,
+              "inStock": true,
+              "image": {
+                "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122866154-74758c50-fb56-4fd7-851a-17ba8aa095c8.jpg",
+                "local": "/source-images/ddd9b156421404898e15.jpg",
+                "bytes": 43585,
+                "sha256": "ddd9b156421404898e155ac9fa47b8ecf5b704c52ff6dc8fcb14afb0b4e2a20a",
+                "contentType": "image/jpeg",
+                "role": "Public add-on option image explicitly loaded in Aulla page data"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122624483-bc78cb6d-999d-4680-a895-d53759b18921.jpg",
+          "local": "/source-images/3178bcc7bbce7fc4519f.jpg",
+          "bytes": 47808,
+          "sha256": "3178bcc7bbce7fc4519f3e805406bbc983a2e1a9c9d615a9b7a1cbd80edc7a75",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122911207-adbfed95-649d-42e7-895b-a063d09f6006.jpg",
+          "local": "/source-images/a7b5e19a7c5004061064.jpg",
+          "bytes": 72869,
+          "sha256": "a7b5e19a7c50040610648f221f429a0edeaca60d5f48c8aceb3b82acfbc820f5",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122624483-bc78cb6d-999d-4680-a895-d53759b18921.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122911207-adbfed95-649d-42e7-895b-a063d09f6006.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122624483-bc78cb6d-999d-4680-a895-d53759b18921.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122911207-adbfed95-649d-42e7-895b-a063d09f6006.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/lnPglpYAhuumNm2wHhtA.html",
+        "sha256": "e263c1ec87bba1e6e12bef386a336a5cab66fb8fc3a6efa29a93e762b757af0e",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=lnPglpYAhuumNm2wHhtA]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    },
+    {
+      "id": "qATxMkX6SIEBaa1jlBDu",
+      "url": "https://aulladesign.unlb.io/product/qATxMkX6SIEBaa1jlBDu",
+      "name": "عباية جوهره | ABAYA JAWHARA",
+      "description": "",
+      "price": 306,
+      "compareAtPrice": 340,
+      "currency": "AED",
+      "offers": {
+        "@type": "Offer",
+        "price": 306,
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "url": "https://aulladesign.unlb.io/product/qATxMkX6SIEBaa1jlBDu",
+        "seller": {
+          "@type": "OnlineStore",
+          "@id": "https://aulladesign.unlb.io/",
+          "name": "AullaDesign",
+          "url": "https://aulladesign.unlb.io/",
+          "logo": "https://media.unlb.io/stores/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1790943096113-47b5122b-1cb8-4d92-959b-26b24351f424.jpg"
+        }
+      },
+      "availability": {
+        "inStock": true,
+        "isUnlimited": true
+      },
+      "hasVariants": false,
+      "optionGroups": [],
+      "variants": [],
+      "addonGroups": [],
+      "images": [
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122984307-6479cdfe-37e4-4794-b9c4-0bdaac16cffc.jpg",
+          "local": "/source-images/de1bbd8fe7ddc1cc6fd8.jpg",
+          "bytes": 161087,
+          "sha256": "de1bbd8fe7ddc1cc6fd893d67c33a191bd5ddb06e5b04861083b3873e577044a",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122984214-aff0d9d2-0569-4134-959d-20c3fb079193.jpg",
+          "local": "/source-images/7241bc7b005df5a15195.jpg",
+          "bytes": 117101,
+          "sha256": "7241bc7b005df5a15195c94b8314092483e6794547cc3078fb9b7b37d19a00fe",
+          "contentType": "image/jpeg"
+        }
+      ],
+      "galleryAgreement": true,
+      "gallerySources": {
+        "jsonLdImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122984307-6479cdfe-37e4-4794-b9c4-0bdaac16cffc.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122984214-aff0d9d2-0569-4134-959d-20c3fb079193.jpg"
+        ],
+        "hydratedImages": [
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122984307-6479cdfe-37e4-4794-b9c4-0bdaac16cffc.jpg",
+          "https://media.unlb.io/products/lIMZLNCdE3hUXtmhwGpG0W3lMpA3/1791122984214-aff0d9d2-0569-4134-959d-20c3fb079193.jpg"
+        ]
+      },
+      "sizeChartLinks": [],
+      "warnings": [],
+      "evidence": {
+        "file": ".research/aulla-import/qATxMkX6SIEBaa1jlBDu.html",
+        "sha256": "fd154baea66394734b4196d9a2514815517eba0f9f04b123d0f412b6225fa0ac",
+        "jsonLd": "script[type=\"application/ld+json\"] Product matching url",
+        "hydrated": "Flight row 19, JSON path $.1.3, products[id=qATxMkX6SIEBaa1jlBDu]",
+        "addonGroups": "Flight row 19, JSON path $.1.3, addonGroups filtered by product.addonGroupIds and storeId"
+      }
+    }
+  ],
+  "missingAssets": []
+}

@@ -1,0 +1,114 @@
+/* Compact admin density: readable rows, with the entire order as a touch target. */
+.admin-page .admin-orders{display:grid;gap:8px}
+.admin-page .admin-order{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 12px;padding:12px;margin:0;border-radius:7px;min-height:0;text-align:start}
+.admin-page .admin-order>div{min-width:0;margin:0;gap:8px}
+.admin-page .admin-order>div:first-child{grid-column:1/-1;display:flex;flex-direction:row;align-items:center;justify-content:space-between}
+.admin-page .admin-order>div:first-child>bdi{font-size:13px;line-height:1.5}
+.admin-page .admin-order>div:first-child>span{font-size:11px;line-height:1.5}
+.admin-page .admin-order>div:nth-child(2){display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px}
+.admin-page .admin-order>div:nth-child(2)>span:last-child{font-size:12px;line-height:1.4}
+.admin-page .admin-order>div:last-child{display:flex;flex-direction:row;align-items:center;justify-content:flex-end;gap:10px;font-size:14px}
+.admin-page .admin-order svg{width:16px;height:16px}
+.admin-page .status-chip{font-size:11px;line-height:1.5;padding:3px 7px;border-radius:4px;white-space:normal}
+.admin-page .admin-stats{gap:8px;margin-bottom:16px}
+.admin-page .admin-stats>div{padding:10px;border-radius:7px}
+.admin-page .admin-stats b{font-size:22px;margin-top:4px}
+.admin-page .admin-stats span{font-size:11px;line-height:1.6}
+.admin-page .admin-products{gap:8px}
+.admin-page .admin-products article{padding:10px;grid-template-columns:44px minmax(0,1fr) auto;gap:10px;border-radius:7px}
+.admin-page .admin-products img{width:44px;height:60px}
+.admin-page .admin-products h3{font-size:13px;line-height:1.5;margin:0 0 4px}
+.admin-page .admin-products p{font-size:11px;line-height:1.6;margin:0}
+.admin-page .connection-card{padding:12px}.admin-page .connection-card h3{font-size:15px;margin-bottom:8px}
+.admin-page .connection-card p{font-size:12px;margin-bottom:0}.admin-page .connection-status{font-size:11px;padding:4px 8px}
+.admin-page .admin-selection-row{padding:12px;margin-block:8px}.admin-page .admin-selection-row h3{font-size:13px}
+@media(min-width:900px){.admin-page .admin-order{grid-template-columns:1.2fr 1.2fr auto;align-items:center}.admin-page .admin-order>div:first-child{grid-column:auto;align-items:flex-start;flex-direction:column}}
+/* Shared quiet motion and structured navy/silver catalogue cards. */
+.motion-card{position:relative;transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s ease}
+.motion-card:after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(circle at var(--gx,50%) var(--gy,30%),#ffffff45,transparent 55%);opacity:var(--glare,0);transition:opacity .4s}
+.source-card{border:1px solid var(--line);border-radius:10px;background:var(--surface);overflow:hidden}
+.source-card-frame{border-radius:9px 9px 0 0;background:#e9edf1}
+.source-card-body{padding:12px}
+.source-card-bottom{border-top:1px solid var(--line);padding-top:8px;margin-top:10px}
+.source-card-body h2{margin-top:0}
+.motion-card:focus-within{box-shadow:0 8px 24px #141c3010}
+.admin-tabs{overflow-x:auto}
+.admin-tabs button{flex-shrink:0}
+.finance-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-block:20px}
+.finance-grid article{padding:14px;border:1px solid var(--line);border-radius:7px;background:var(--surface)}
+.finance-grid span{font-size:12px;color:var(--muted)}
+.finance-grid strong{display:block;font-size:21px;font-weight:400;margin-top:10px}
+.admin-finance h2{font-size:22px}.admin-finance h3{font-size:16px}
+.finance-breakdown{display:grid;gap:16px;margin-block:20px}
+.finance-breakdown>div{display:grid;grid-template-columns:90px minmax(0,1fr) 80px;align-items:center;gap:12px;font-size:12px}
+.finance-breakdown meter{width:100%;height:12px;accent-color:#527a9b}
+@media(max-width:760px){.finance-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.finance-breakdown>div{grid-template-columns:75px minmax(0,1fr) 65px;gap:8px}.source-card-body{padding:10px}}
+@media(prefers-reduced-motion:reduce){.motion-card{transition:none!important;transform:none!important}.motion-card:after{display:none}}
+.source-card-frame{position:relative}.source-save{position:absolute;inset-inline-end:8px;top:8px;z-index:2;background:var(--surface);border:1px solid var(--line);width:44px;height:44px;border-radius:50%}.source-save[aria-pressed=true]{color:var(--ink);background:var(--sage)}.source-save[aria-pressed=true] svg{fill:currentColor}
+.source-tools{display:flex;flex-wrap:wrap;align-items:end;gap:12px}.source-tools>label{flex:1;min-width:160px}
+.invoice-document{padding:16px;border:1px solid var(--line);border-radius:8px;margin-block:20px;font-size:13px}
+.invoice-document header{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.invoice-document header span{font-size:11px;color:var(--muted)}
+.invoice-document dd{overflow-wrap:anywhere}.invoice-lines article{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-block:12px}
+.invoice-lines p{font-size:12px;margin:6px 0}.invoice-total{display:flex;justify-content:space-between;font-size:17px}.admin-costs input{width:100%;min-height:44px}
+.admin-page .admin-order bdi{overflow-wrap:anywhere}
+@media print{
+ body{overflow:visible!important}
+ body>:not(dialog){display:none!important}
+ dialog:has(.invoice-document) .dialog-head,dialog:has(.invoice-document) .order-detail>:not(.invoice-document){display:none!important}
+ body *{visibility:hidden!important}
+ .invoice-document,.invoice-document *{visibility:visible!important}
+ dialog:has(.invoice-document){position:absolute!important;inset:0!important;max-height:none!important;max-width:none!important;width:100%!important;overflow:visible!important;border:0!important}
+ .invoice-document{position:absolute;inset:0 auto auto 0;width:100%;border:0;margin:0;background:white;color:black}
+ .invoice-print{display:none!important}
+ dialog::backdrop{background:transparent}
+}
+.dialog:has(.invoice-document) .dialog-head h2{font-family:inherit;font-size:16px;line-height:1.6;overflow-wrap:anywhere}
+.source-detail .product-layout>*{min-width:0}
+.source-detail .thumbnails{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
+.source-detail .thumbnails button{flex-shrink:0}
+/* Compact collection discovery, using existing brand tokens. */
+.collection-shortcuts{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 24px}
+.collection-shortcuts>a,.collection-shortcuts>button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 16px;border:1px solid var(--line);border-radius:24px;background:var(--surface);color:var(--ink);font-size:13px;text-decoration:none;transition:background .2s,color .2s}
+.collection-shortcuts>button[aria-pressed=true]{background:var(--ink);color:var(--surface)}
+.collection-shortcuts>a:hover,.collection-shortcuts>button:hover{border-color:var(--ink)}
+.related-pieces{margin-block:48px 24px;min-width:0;border-top:1px solid var(--line);padding-top:24px}
+.related-pieces h2{font-size:24px}.related-track{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:4px}
+.source-purchase{display:flex;flex-wrap:wrap;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:16px}
+.purchase-price{display:grid;gap:4px;margin-inline-end:auto}.purchase-price small{font-size:11px;color:var(--muted)}
+@media(max-width:760px){.related-track{display:flex;overflow-x:auto;scroll-snap-type:x proximity;gap:12px;padding-bottom:14px}.related-track>.motion-card{flex:0 0 72%;min-width:0;scroll-snap-align:start}.related-pieces h2{font-size:21px}.collection-shortcuts{gap:6px}.collection-shortcuts>a,.collection-shortcuts>button{padding-inline:12px;font-size:12px}.source-purchase>.button{flex:1}.purchase-price{max-width:45%}}
+@media(prefers-reduced-motion:reduce){.collection-shortcuts>a,.collection-shortcuts>button{transition:none}.related-track{scroll-behavior:auto}}
+/* Smaller merchandise cards: retain the whole garment and usable touch targets. */
+.source-card .source-card-media{aspect-ratio:1;height:auto}
+.source-card .source-card-media img{object-fit:contain;max-height:100%;padding:0}
+.source-card .source-card-body{padding:8px}
+.source-card .source-card-body h2{font-size:14px;line-height:1.6;margin-bottom:4px}
+.source-card .source-size-note{font-size:10px;line-height:1.6;margin:4px 0}
+.source-card .source-card-bottom{margin-top:6px;padding-top:6px;gap:5px}
+.source-card .source-card-bottom p{font-size:13px;margin:0}
+.source-card .source-card-action{font-size:11px;min-height:44px;padding:7px}
+@media(min-width:1200px){.source-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:760px){.source-grid{gap:14px 10px}.related-track>.motion-card{flex-basis:calc(50% - 6px)}.source-card .source-card-body h2{font-size:13px}.source-card .source-card-bottom{flex-wrap:wrap}.source-card .source-card-action{width:100%}}
+.packaging-story{padding-block:40px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1.2fr;gap:32px;align-items:center}
+.packaging-copy small{font-size:10px;letter-spacing:.18em;color:var(--muted)}
+.packaging-copy h2{font-size:28px;margin-block:12px}.packaging-copy p{font-size:14px;line-height:1.9;color:var(--muted)}
+.packaging-scenes{display:grid;grid-template-columns:1fr 1fr;gap:12px;min-width:0}
+.packaging-scenes figure{margin:0;position:relative;border-radius:8px;overflow:hidden;background:var(--surface);height:290px}
+.packaging-scenes figcaption{position:absolute;bottom:0;inset-inline:0;background:var(--surface);padding:9px;text-align:center;font-size:11px}
+.hanging-tag{position:relative;margin:auto;width:110px;height:240px;transform-origin:50% 0}
+.tag-cord{position:absolute;top:-12px;left:48px;width:14px;height:88px;border:2px solid #d4d3ce;border-radius:50%}
+.tag-paper{position:absolute;top:68px;width:110px;height:160px;background:#81888a;box-shadow:6px 12px 18px #11152415;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:18px}
+.tag-hole{position:absolute;top:10px;width:7px;height:7px;border-radius:50%;background:var(--surface);border:1px solid #646b6c}
+.tag-paper img{width:78px;height:85px;filter:brightness(0) invert(1);object-fit:contain}.tag-paper small{font-size:6px;letter-spacing:.1em;color:white}
+.cover-scene>img{width:100%;height:100%;object-fit:cover;object-position:65% 40%}
+.packaging-story.is-seen .hanging-tag{animation:tag-settle 2.4s cubic-bezier(.22,.61,.36,1) both}
+.packaging-story.is-seen .cover-scene>img{animation:cover-arrive 1s cubic-bezier(.22,.61,.36,1) both}
+@keyframes tag-settle{0%{transform:rotate(-9deg)}25%{transform:rotate(6deg)}50%{transform:rotate(-3deg)}75%{transform:rotate(1deg)}100%{transform:rotate(0)}}
+@keyframes cover-arrive{from{opacity:.5;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media(max-width:760px){.packaging-story{grid-template-columns:1fr;gap:18px;padding-block:28px}.packaging-copy h2{font-size:23px}.packaging-scenes figure{height:240px}.hanging-tag{transform:scale(.85);transform-origin:50% 0}.tag-paper{top:52px}.tag-cord{height:72px}}
+@media(prefers-reduced-motion:reduce){.packaging-story.is-seen .hanging-tag,.packaging-story.is-seen .cover-scene>img{animation:none!important}}
+
+/* Photographic packaging concepts; original reference assets retained. */
+.packaging-scenes .hanging-tag,.packaging-scenes .cover-scene>img{display:block;width:100%;height:100%;padding:14px 12px 38px;object-fit:contain;object-position:center;transform:none}
+.packaging-scenes .neck-scene{grid-column:1/-1;height:180px}
+.packaging-scenes .neck-scene>img{width:100%;height:100%;object-fit:contain;padding:8px 12px 32px}

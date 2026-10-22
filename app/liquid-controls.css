@@ -1,0 +1,47 @@
+/* The owner requested restrained liquid glass. Navy text stays on a high-opacity surface. */
+:root{--glass-surface:rgba(255,255,255,.88);--glass-line:rgba(82,122,155,.22);--glass-edge:inset 0 1px 0 rgba(255,255,255,.95),0 2px 8px rgba(17,22,38,.025)}
+.piece-select{display:grid;gap:8px;font-size:13px;min-width:0}
+.source-options label.piece-select{padding:0;border:0;background:none;min-height:0;display:grid;margin:0;width:100%;justify-content:stretch;color:var(--atelier-ink);outline:0}
+.source-options .piece-select select{display:block;width:100%;opacity:1;position:static;height:44px;min-height:44px}
+.piece-fabric-select{margin-block:20px}
+.fabric-disclosure{margin-block:20px;border:1px solid var(--glass-line);border-radius:12px;background:var(--glass-surface)}.fabric-disclosure>summary{display:flex;align-items:center;justify-content:space-between;padding:12px;font-size:14px;gap:16px;list-style:none}.fabric-disclosure>summary span{font-size:12px;color:var(--muted)}.fabric-disclosure>.fabric-picker{padding:12px;margin:0;background:transparent}.fabric-disclosure>summary:after{content:'⌄';color:var(--atelier-blue)}.fabric-disclosure>summary::-webkit-details-marker{display:none}
+:is(.source-info,.source-tools,.shop-finder,.atelier-checkout,.atelier-admin,.atelier-login) :is(select,input:not([type=checkbox]):not([type=radio]),textarea){background:var(--glass-surface);border:1px solid var(--glass-line);border-radius:10px;box-shadow:var(--glass-edge);padding:10px 12px;color:var(--atelier-ink);min-height:44px;line-height:1.4}
+.source-info :is(.piece-select select,.named-colour-card){transition:border-color .18s ease,background-color .18s ease}
+.source-info .named-colour-card{background:var(--glass-surface);border:1px solid var(--glass-line);box-shadow:var(--glass-edge);border-radius:10px;min-width:78px;padding:8px}
+.source-info .named-colour-card:has(input:checked){border-color:var(--atelier-blue);background:#edf2f6}
+.source-info .named-colour-swatch{border-radius:5px;box-shadow:inset 0 1px 1px #ffffff24}
+.source-purchase{position:static!important;bottom:auto!important;box-shadow:none!important;background:var(--glass-surface);border:1px solid var(--glass-line);border-radius:12px;padding:12px;margin-block:20px 14px}
+.piece-selection-summary{background:rgba(237,240,243,.7);border-radius:8px}
+.source-info .notice{padding:10px 12px;border-radius:8px;background:rgba(237,240,243,.6)}
+.pdp-details-stack{margin-top:22px}.pdp-disclosure,.wear-observation{border-bottom:1px solid var(--glass-line)}
+.pdp-disclosure summary,.wear-observation summary,.fit-measure-list summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;font-size:14px;font-weight:400;min-height:52px}
+:is(.pdp-disclosure,.wear-observation,.fit-measure-list details,.checkout-step)>summary::-webkit-details-marker{display:none}
+:is(.pdp-disclosure,.wear-observation,.fit-measure-list details,.checkout-step)>summary:after{content:'+';font:400 20px/1 Arial,sans-serif;flex:none;color:var(--atelier-blue)}
+:is(.pdp-disclosure,.wear-observation,.fit-measure-list details,.checkout-step)[open]>summary:after{content:'−'}
+.collection-view-all{display:flex;align-items:center;justify-content:center;gap:10px;margin:26px auto 0;font-size:13px;min-height:44px;width:max-content}
+.collection-view-all svg{width:17px;height:17px}
+.source-card-action{font-size:13px}.source-size-note{font-size:12px!important}.collection-status small,.editorial-sizes,.editorial-navigation p,.editorial-preview-note{font-size:12px}.footer-bottom{font-size:12px}.atelier-bars{direction:ltr}.atelier-sidebar>p br:after{content:' '}
+.atelier-checkout{padding-block:28px 50px;max-width:1080px}
+.checkout-test-note{font-size:12px;color:var(--muted);margin:10px 0 28px}
+.checkout-layout{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:32px;align-items:start}
+.checkout-fields{border:0;margin:0;padding:0;min-width:0}
+.checkout-step{border:1px solid var(--glass-line);border-radius:12px;background:var(--glass-surface);box-shadow:var(--glass-edge);margin-bottom:12px;overflow:hidden}
+.checkout-step>summary{min-height:56px;padding:12px 18px;display:flex;align-items:center;gap:12px;font-size:15px;list-style:none}
+.checkout-step>summary>span{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.checkout-step>summary:after{margin-inline-start:auto}
+.checkout-step-body{padding:4px 18px 20px;display:grid;gap:16px}
+.checkout-step-body label{display:grid;gap:7px;font-size:13px;min-width:0}
+.checkout-piece{display:grid;gap:14px;grid-template-columns:1fr 1fr;align-items:center;padding-block:10px;border-bottom:1px solid var(--glass-line)}
+.checkout-piece p{font-size:14px;margin:0;line-height:1.5}.checkout-piece small{display:block;font-size:12px;color:var(--muted);margin-top:5px}
+.checkout-measurements{display:grid;gap:16px}.checkout-measurements>.caption{margin:0;font-size:12px;line-height:1.6}.measurement-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.checkout-step-body .checkbox-label{display:flex;align-items:center;min-height:44px}
+.checkout-summary{position:sticky;top:112px;min-width:0}.checkout-summary .order-summary{padding:22px;background:var(--glass-surface);border:1px solid var(--glass-line);border-radius:12px;box-shadow:var(--glass-edge)}
+.checkout-summary h2{font-size:21px;margin-bottom:20px}.checkout-summary p{font-size:13px}.checkout-summary .caption{font-size:12px;line-height:1.6}.checkout-total{display:flex;justify-content:space-between;gap:16px;align-items:center;padding-bottom:20px;border-bottom:1px solid var(--glass-line);font-size:13px}.checkout-total .money{font-size:22px}.checkout-ready-date{display:block;font-size:15px;font-weight:400;margin-top:5px}
+.checkout-summary .text-link{display:flex;align-items:center;justify-content:center;font-size:12px;margin-top:10px;background:none;border:0}
+.bag-page .order-summary,.bag-item,.atelier-panel,.fit-guide-visual{border:1px solid var(--glass-line);background:var(--glass-surface);box-shadow:var(--glass-edge);border-radius:12px}
+.bag-item{padding:16px}.atelier-order-row{background:transparent}.atelier-workspace{background:rgba(255,255,255,.94)}
+@supports(backdrop-filter:blur(12px)){.site-header,.source-purchase,.checkout-summary .order-summary{backdrop-filter:blur(12px) saturate(115%);-webkit-backdrop-filter:blur(12px) saturate(115%)}}
+@media(max-width:760px){.source-options .piece-select select,.piece-fabric-select select{font-size:16px}.source-purchase{padding:10px;gap:10px}.source-purchase .button{font-size:13px}.checkout-layout{grid-template-columns:1fr;gap:14px}.checkout-summary{position:static}.checkout-step>summary{padding-inline:14px;font-size:14px;min-height:52px}.checkout-step-body{padding:2px 14px 16px}.checkout-piece{grid-template-columns:1fr;gap:10px}.checkout-step-body :is(input,select,textarea){font-size:16px}.checkout-step-body label{font-size:12px}.checkout-summary .order-summary{padding:18px}.checkout-test-note{margin-bottom:20px;font-size:11px}.bag-item{padding:12px}.atelier-panel{border-radius:10px}.atelier-scope,.atelier-status,.atelier-order-row .atelier-status,.atelier-order-row .atelier-fulfilment,.atelier-sidebar>p,.atelier-wordmark small{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.source-info :is(.piece-select select,.named-colour-card){transition:none}}
+@media(prefers-contrast:more){:root{--glass-surface:#fff;--glass-line:#6a7583}.source-purchase,.site-header,.checkout-summary .order-summary{backdrop-filter:none}}
+@media(forced-colors:active){.checkout-step,.source-purchase,.named-colour-card,.atelier-panel{border:1px solid CanvasText;box-shadow:none;background:Canvas}.named-colour-swatch{forced-color-adjust:none}}

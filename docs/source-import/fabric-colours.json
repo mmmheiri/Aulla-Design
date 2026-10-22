@@ -1,0 +1,1295 @@
+{
+  "date": "2026-10-20",
+  "scope": "Handwritten catalogue codes and approximate screen colours sampled from public reference photographs. Not calibrated textile measurements; no material or stock inference.",
+  "missingCodes": [
+    9,
+    71,
+    74,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "charts": [
+    "/source-images/ffec5b205130b0659997.jpg",
+    "/source-images/54d175aad6af96768b26.jpg",
+    "/source-images/1a8e65d122bfd5609d48.jpg"
+  ],
+  "samples": [
+    {
+      "code": 1,
+      "row": 1,
+      "column": 1,
+      "approxHex": "#e8e4da",
+      "samplePixel": {
+        "x": 145,
+        "y": 110,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 2,
+      "row": 2,
+      "column": 1,
+      "approxHex": "#e7e2d6",
+      "samplePixel": {
+        "x": 145,
+        "y": 225,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 3,
+      "row": 3,
+      "column": 1,
+      "approxHex": "#9d979d",
+      "samplePixel": {
+        "x": 145,
+        "y": 340,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 4,
+      "row": 4,
+      "column": 1,
+      "approxHex": "#8c7a7c",
+      "samplePixel": {
+        "x": 145,
+        "y": 455,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 5,
+      "row": 5,
+      "column": 1,
+      "approxHex": "#1c1d22",
+      "samplePixel": {
+        "x": 145,
+        "y": 570,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 6,
+      "row": 6,
+      "column": 1,
+      "approxHex": "#ad9a97",
+      "samplePixel": {
+        "x": 145,
+        "y": 680,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 7,
+      "row": 7,
+      "column": 1,
+      "approxHex": "#a2a0a6",
+      "samplePixel": {
+        "x": 145,
+        "y": 790,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 8,
+      "row": 8,
+      "column": 1,
+      "approxHex": "#857e7e",
+      "samplePixel": {
+        "x": 145,
+        "y": 895,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 10,
+      "row": 9,
+      "column": 1,
+      "approxHex": "#b0a9a2",
+      "samplePixel": {
+        "x": 145,
+        "y": 995,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 11,
+      "row": 10,
+      "column": 1,
+      "approxHex": "#bcb1ab",
+      "samplePixel": {
+        "x": 145,
+        "y": 1090,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 12,
+      "row": 11,
+      "column": 1,
+      "approxHex": "#b9aea8",
+      "samplePixel": {
+        "x": 145,
+        "y": 1180,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 13,
+      "row": 1,
+      "column": 2,
+      "approxHex": "#8a7a7a",
+      "samplePixel": {
+        "x": 540,
+        "y": 110,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 14,
+      "row": 2,
+      "column": 2,
+      "approxHex": "#b59a87",
+      "samplePixel": {
+        "x": 540,
+        "y": 225,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 15,
+      "row": 3,
+      "column": 2,
+      "approxHex": "#7b6460",
+      "samplePixel": {
+        "x": 540,
+        "y": 340,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 16,
+      "row": 4,
+      "column": 2,
+      "approxHex": "#a48486",
+      "samplePixel": {
+        "x": 540,
+        "y": 455,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 17,
+      "row": 5,
+      "column": 2,
+      "approxHex": "#746f6e",
+      "samplePixel": {
+        "x": 540,
+        "y": 570,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 18,
+      "row": 6,
+      "column": 2,
+      "approxHex": "#76736b",
+      "samplePixel": {
+        "x": 540,
+        "y": 680,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 19,
+      "row": 7,
+      "column": 2,
+      "approxHex": "#6a7677",
+      "samplePixel": {
+        "x": 540,
+        "y": 790,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 20,
+      "row": 8,
+      "column": 2,
+      "approxHex": "#897173",
+      "samplePixel": {
+        "x": 540,
+        "y": 895,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 21,
+      "row": 9,
+      "column": 2,
+      "approxHex": "#839bb7",
+      "samplePixel": {
+        "x": 540,
+        "y": 995,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 22,
+      "row": 10,
+      "column": 2,
+      "approxHex": "#99b8d5",
+      "samplePixel": {
+        "x": 540,
+        "y": 1090,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 23,
+      "row": 11,
+      "column": 2,
+      "approxHex": "#604e4e",
+      "samplePixel": {
+        "x": 540,
+        "y": 1180,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 24,
+      "row": 1,
+      "column": 3,
+      "approxHex": "#4e312d",
+      "samplePixel": {
+        "x": 930,
+        "y": 110,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 25,
+      "row": 2,
+      "column": 3,
+      "approxHex": "#5a291d",
+      "samplePixel": {
+        "x": 930,
+        "y": 225,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 26,
+      "row": 3,
+      "column": 3,
+      "approxHex": "#320b0e",
+      "samplePixel": {
+        "x": 930,
+        "y": 340,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 27,
+      "row": 4,
+      "column": 3,
+      "approxHex": "#29140f",
+      "samplePixel": {
+        "x": 930,
+        "y": 455,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 28,
+      "row": 5,
+      "column": 3,
+      "approxHex": "#220f13",
+      "samplePixel": {
+        "x": 930,
+        "y": 570,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 29,
+      "row": 6,
+      "column": 3,
+      "approxHex": "#373a53",
+      "samplePixel": {
+        "x": 930,
+        "y": 680,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 30,
+      "row": 7,
+      "column": 3,
+      "approxHex": "#5e616e",
+      "samplePixel": {
+        "x": 930,
+        "y": 790,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 31,
+      "row": 8,
+      "column": 3,
+      "approxHex": "#1b2737",
+      "samplePixel": {
+        "x": 930,
+        "y": 895,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 32,
+      "row": 9,
+      "column": 3,
+      "approxHex": "#525d6d",
+      "samplePixel": {
+        "x": 930,
+        "y": 995,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 33,
+      "row": 10,
+      "column": 3,
+      "approxHex": "#21303d",
+      "samplePixel": {
+        "x": 930,
+        "y": 1090,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 34,
+      "row": 11,
+      "column": 3,
+      "approxHex": "#71768b",
+      "samplePixel": {
+        "x": 930,
+        "y": 1180,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 1,
+      "image": "/source-images/ffec5b205130b0659997.jpg"
+    },
+    {
+      "code": 35,
+      "row": 1,
+      "column": 1,
+      "approxHex": "#323138",
+      "samplePixel": {
+        "x": 145,
+        "y": 115,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 36,
+      "row": 2,
+      "column": 1,
+      "approxHex": "#3f3d3e",
+      "samplePixel": {
+        "x": 145,
+        "y": 235,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 37,
+      "row": 3,
+      "column": 1,
+      "approxHex": "#1f1010",
+      "samplePixel": {
+        "x": 145,
+        "y": 345,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 38,
+      "row": 4,
+      "column": 1,
+      "approxHex": "#5e5451",
+      "samplePixel": {
+        "x": 145,
+        "y": 455,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 39,
+      "row": 5,
+      "column": 1,
+      "approxHex": "#54474a",
+      "samplePixel": {
+        "x": 145,
+        "y": 565,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 40,
+      "row": 6,
+      "column": 1,
+      "approxHex": "#2a241f",
+      "samplePixel": {
+        "x": 145,
+        "y": 670,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 41,
+      "row": 7,
+      "column": 1,
+      "approxHex": "#13181c",
+      "samplePixel": {
+        "x": 145,
+        "y": 775,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 42,
+      "row": 8,
+      "column": 1,
+      "approxHex": "#1e283e",
+      "samplePixel": {
+        "x": 145,
+        "y": 875,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 43,
+      "row": 9,
+      "column": 1,
+      "approxHex": "#101a30",
+      "samplePixel": {
+        "x": 145,
+        "y": 970,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 44,
+      "row": 10,
+      "column": 1,
+      "approxHex": "#0f1829",
+      "samplePixel": {
+        "x": 145,
+        "y": 1070,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 45,
+      "row": 11,
+      "column": 1,
+      "approxHex": "#c5c1b8",
+      "samplePixel": {
+        "x": 145,
+        "y": 1160,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 46,
+      "row": 1,
+      "column": 2,
+      "approxHex": "#969a9b",
+      "samplePixel": {
+        "x": 540,
+        "y": 115,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 47,
+      "row": 2,
+      "column": 2,
+      "approxHex": "#a69d80",
+      "samplePixel": {
+        "x": 540,
+        "y": 235,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 48,
+      "row": 3,
+      "column": 2,
+      "approxHex": "#ae8679",
+      "samplePixel": {
+        "x": 540,
+        "y": 345,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 49,
+      "row": 4,
+      "column": 2,
+      "approxHex": "#a6736e",
+      "samplePixel": {
+        "x": 540,
+        "y": 455,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 50,
+      "row": 5,
+      "column": 2,
+      "approxHex": "#86746c",
+      "samplePixel": {
+        "x": 540,
+        "y": 565,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 51,
+      "row": 6,
+      "column": 2,
+      "approxHex": "#947987",
+      "samplePixel": {
+        "x": 540,
+        "y": 670,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 52,
+      "row": 7,
+      "column": 2,
+      "approxHex": "#815a6c",
+      "samplePixel": {
+        "x": 540,
+        "y": 775,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 53,
+      "row": 8,
+      "column": 2,
+      "approxHex": "#2a1831",
+      "samplePixel": {
+        "x": 540,
+        "y": 875,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 54,
+      "row": 9,
+      "column": 2,
+      "approxHex": "#3d2c41",
+      "samplePixel": {
+        "x": 540,
+        "y": 970,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 55,
+      "row": 10,
+      "column": 2,
+      "approxHex": "#59464e",
+      "samplePixel": {
+        "x": 540,
+        "y": 1070,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 56,
+      "row": 11,
+      "column": 2,
+      "approxHex": "#595663",
+      "samplePixel": {
+        "x": 540,
+        "y": 1160,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 57,
+      "row": 1,
+      "column": 3,
+      "approxHex": "#2e2825",
+      "samplePixel": {
+        "x": 930,
+        "y": 115,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 58,
+      "row": 2,
+      "column": 3,
+      "approxHex": "#111119",
+      "samplePixel": {
+        "x": 930,
+        "y": 235,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 59,
+      "row": 3,
+      "column": 3,
+      "approxHex": "#490a18",
+      "samplePixel": {
+        "x": 930,
+        "y": 345,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 60,
+      "row": 4,
+      "column": 3,
+      "approxHex": "#eebcaa",
+      "samplePixel": {
+        "x": 930,
+        "y": 455,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 61,
+      "row": 5,
+      "column": 3,
+      "approxHex": "#dc6f4a",
+      "samplePixel": {
+        "x": 930,
+        "y": 565,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 62,
+      "row": 6,
+      "column": 3,
+      "approxHex": "#123f54",
+      "samplePixel": {
+        "x": 930,
+        "y": 670,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 63,
+      "row": 7,
+      "column": 3,
+      "approxHex": "#9a5952",
+      "samplePixel": {
+        "x": 930,
+        "y": 775,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 64,
+      "row": 8,
+      "column": 3,
+      "approxHex": "#a0dfe3",
+      "samplePixel": {
+        "x": 930,
+        "y": 875,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 65,
+      "row": 9,
+      "column": 3,
+      "approxHex": "#beccc6",
+      "samplePixel": {
+        "x": 930,
+        "y": 970,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 66,
+      "row": 10,
+      "column": 3,
+      "approxHex": "#346988",
+      "samplePixel": {
+        "x": 930,
+        "y": 1070,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 67,
+      "row": 11,
+      "column": 3,
+      "approxHex": "#97adc4",
+      "samplePixel": {
+        "x": 930,
+        "y": 1160,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 2,
+      "image": "/source-images/54d175aad6af96768b26.jpg"
+    },
+    {
+      "code": 68,
+      "row": 1,
+      "column": 1,
+      "approxHex": "#cdb5af",
+      "samplePixel": {
+        "x": 145,
+        "y": 115,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 69,
+      "row": 2,
+      "column": 1,
+      "approxHex": "#9d757c",
+      "samplePixel": {
+        "x": 145,
+        "y": 225,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 70,
+      "row": 3,
+      "column": 1,
+      "approxHex": "#cdb7bb",
+      "samplePixel": {
+        "x": 145,
+        "y": 335,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 72,
+      "row": 4,
+      "column": 1,
+      "approxHex": "#d7cda4",
+      "samplePixel": {
+        "x": 145,
+        "y": 445,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 73,
+      "row": 5,
+      "column": 1,
+      "approxHex": "#5e2a12",
+      "samplePixel": {
+        "x": 145,
+        "y": 550,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 75,
+      "row": 6,
+      "column": 1,
+      "approxHex": "#091a23",
+      "samplePixel": {
+        "x": 145,
+        "y": 655,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 76,
+      "row": 7,
+      "column": 1,
+      "approxHex": "#8f1d27",
+      "samplePixel": {
+        "x": 145,
+        "y": 760,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 77,
+      "row": 8,
+      "column": 1,
+      "approxHex": "#2e1b2a",
+      "samplePixel": {
+        "x": 145,
+        "y": 860,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 78,
+      "row": 9,
+      "column": 1,
+      "approxHex": "#c7a1b1",
+      "samplePixel": {
+        "x": 145,
+        "y": 965,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 79,
+      "row": 10,
+      "column": 1,
+      "approxHex": "#9dafb4",
+      "samplePixel": {
+        "x": 145,
+        "y": 1065,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 80,
+      "row": 11,
+      "column": 1,
+      "approxHex": "#b0453a",
+      "samplePixel": {
+        "x": 145,
+        "y": 1160,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 100,
+      "row": 1,
+      "column": 2,
+      "approxHex": "#140f0e",
+      "samplePixel": {
+        "x": 540,
+        "y": 115,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 101,
+      "row": 2,
+      "column": 2,
+      "approxHex": "#002435",
+      "samplePixel": {
+        "x": 540,
+        "y": 225,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 102,
+      "row": 3,
+      "column": 2,
+      "approxHex": "#0e080c",
+      "samplePixel": {
+        "x": 540,
+        "y": 335,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 103,
+      "row": 4,
+      "column": 2,
+      "approxHex": "#302526",
+      "samplePixel": {
+        "x": 540,
+        "y": 445,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 104,
+      "row": 5,
+      "column": 2,
+      "approxHex": "#250c12",
+      "samplePixel": {
+        "x": 540,
+        "y": 550,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 105,
+      "row": 6,
+      "column": 2,
+      "approxHex": "#b77b7d",
+      "samplePixel": {
+        "x": 540,
+        "y": 655,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 106,
+      "row": 7,
+      "column": 2,
+      "approxHex": "#271616",
+      "samplePixel": {
+        "x": 540,
+        "y": 760,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 107,
+      "row": 8,
+      "column": 2,
+      "approxHex": "#090d1f",
+      "samplePixel": {
+        "x": 540,
+        "y": 860,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 108,
+      "row": 9,
+      "column": 2,
+      "approxHex": "#7f0e15",
+      "samplePixel": {
+        "x": 540,
+        "y": 965,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 109,
+      "row": 10,
+      "column": 2,
+      "approxHex": "#082030",
+      "samplePixel": {
+        "x": 540,
+        "y": 1065,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 110,
+      "row": 11,
+      "column": 2,
+      "approxHex": "#3e061f",
+      "samplePixel": {
+        "x": 540,
+        "y": 1160,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 111,
+      "row": 1,
+      "column": 3,
+      "approxHex": "#728b88",
+      "samplePixel": {
+        "x": 930,
+        "y": 115,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    },
+    {
+      "code": 112,
+      "row": 2,
+      "column": 3,
+      "approxHex": "#1f1215",
+      "samplePixel": {
+        "x": 930,
+        "y": 225,
+        "width": 20,
+        "height": 20
+      },
+      "chart": 3,
+      "image": "/source-images/1a8e65d122bfd5609d48.jpg"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+/* Specific card-deck refinement requested after the reference correction. */
+.hero {
+  overflow: clip;
+}
+.hero-card-deck {
+  position: relative;
+  min-width: 0;
+  padding: 24px 52px;
+  perspective: 1400px;
+}
+.hero-card-deck .showcase {
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 18px 46px #0004;
+  transform: rotate(-2deg);
+  transition: transform 420ms var(--ease);
+}
+.hero-card-deck:hover .showcase,
+.hero-card-deck:focus-within .showcase {
+  transform: none;
+}
+.hero-wing {
+  position: absolute;
+  top: 54px;
+  bottom: 52px;
+  width: 50%;
+  background: #e8edf5;
+  color: var(--ink);
+  border-radius: 14px;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 12px 30px #0003;
+  transition:
+    transform 420ms var(--ease),
+    background 180ms;
+}
+.hero-wing img {
+  width: 100%;
+  min-height: 0;
+  flex: 1;
+  object-fit: contain;
+  margin-block: 12px;
+}
+.hero-wing .wing-monogram {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  margin: 0;
+  border-radius: 6px;
+  align-self: flex-start;
+}
+.wing-after .wing-monogram {
+  align-self: flex-end;
+}
+.hero-wing:hover,
+.hero-wing:focus-visible {
+  z-index: 3;
+}
+.hero-wing > span:not(.wing-brand) {
+  font-size: 17px;
+  font-weight: 500;
+}
+.hero-wing small,
+.wing-brand {
+  font-size: 13px;
+}
+.wing-brand {
+  letter-spacing: 0.08em;
+}
+.wing-before {
+  left: 0;
+  transform: rotate(-12deg) translateX(-6px);
+}
+.wing-after {
+  right: 0;
+  transform: rotate(12deg) translateX(6px);
+}
+.wing-before:hover,
+.wing-before:focus-visible {
+  transform: rotate(-16deg) translateX(-12px);
+  background: white;
+}
+.wing-after:hover,
+.wing-after:focus-visible {
+  transform: rotate(16deg) translateX(12px);
+  background: white;
+}
+.hero-card-deck .showcase-stage {
+  height: 340px;
+}
+.hero-card-deck .showcase-bottom {
+  flex-wrap: wrap;
+}
+.hero-card-deck .showcase-controls {
+  margin-inline-start: auto;
+}
+.material-study {
+  padding-block: 32px 64px;
+}
+.material-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.material-heading h2 {
+  font-size: var(--heading);
+  line-height: 1.4;
+}
+.material-heading p {
+  color: var(--muted);
+  max-width: 54ch;
+  margin-top: 8px;
+}
+.material-view {
+  position: relative;
+  background: var(--ink);
+  border-radius: 20px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  max-height: 620px;
+}
+.material-view > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.material-canvas {
+  position: absolute;
+  inset: 0;
+}
+.material-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: pan-y;
+}
+.material-view.live canvas {
+  touch-action: none;
+}
+.material-launch {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(transparent 65%, #111626b8);
+}
+.material-launch .button {
+  background: white;
+  color: var(--ink);
+}
+.material-message {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 12px;
+  padding: 24px;
+  background: #111626d9;
+  color: white;
+}
+.studio-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-block: 16px;
+}
+.studio-controls button {
+  min-height: 44px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 14px;
+  background: white;
+}
+.studio-controls button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.studio-controls p {
+  margin-inline-start: auto;
+  color: var(--muted);
+  font-size: 13px;
+}
+.material-notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 28px;
+}
+.material-explanation {
+  margin-top: 20px;
+}
+.material-explanation summary {
+  min-height: 44px;
+  padding-block: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.material-notes h3 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.material-notes p,
+.material-disclaimer {
+  font-size: 14px;
+  color: var(--muted);
+}
+.material-disclaimer {
+  margin-top: 24px;
+  max-width: 90ch;
+}
+@media (max-width: 1000px) {
+  .hero {
+    gap: 24px;
+    padding: 32px;
+  }
+  .hero-card-deck {
+    padding-inline: 34px;
+  }
+  .hero-card-deck .showcase-stage {
+    height: 310px;
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+    padding: 28px 18px 20px;
+    gap: 18px;
+  }
+  .hero-card-deck {
+    width: 100%;
+    max-width: 450px;
+    margin-inline: auto;
+    padding: 20px 36px;
+  }
+  .hero-card-deck .showcase-stage {
+    height: 280px;
+  }
+  .hero-wing {
+    top: 66px;
+    bottom: 80px;
+    padding-inline: 4px;
+  }
+  .wing-before {
+    transform: rotate(-8deg);
+  }
+  .wing-after {
+    transform: rotate(8deg);
+  }
+  .wing-before:hover,
+  .wing-before:focus-visible {
+    transform: rotate(-10deg);
+  }
+  .wing-after:hover,
+  .wing-after:focus-visible {
+    transform: rotate(10deg);
+  }
+  .hero-card-deck .showcase-bottom {
+    padding: 12px;
+    gap: 6px;
+  }
+  .hero-card-deck .showcase-bottom a {
+    font-size: 17px;
+  }
+  .hero-card-deck .showcase-bottom > div:first-child > span {
+    flex-wrap: wrap;
+    gap: 0 8px;
+  }
+  .hero-signature {
+    margin-top: 18px;
+  }
+  .material-heading {
+    display: block;
+  }
+  .material-view {
+    aspect-ratio: 1;
+  }
+  .material-notes {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .studio-controls p {
+    width: 100%;
+    margin: 4px 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-card-deck *,
+  .hero-wing {
+    transition: none !important;
+  }
+}

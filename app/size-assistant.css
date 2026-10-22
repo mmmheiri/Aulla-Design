@@ -1,0 +1,31 @@
+.dialog.sheet:has(.fit-assistant){width:min(480px,100%);padding:0 20px 24px;background:var(--quiet-paper);border-inline-start:1px solid var(--glass-line);border-radius:14px 0 0 14px}
+[dir=rtl] .dialog.sheet:has(.fit-assistant){border-radius:0 14px 14px 0}
+.dialog:has(.fit-assistant)>.dialog-head{margin-inline:-20px;padding:10px 16px;background:var(--glass-surface);backdrop-filter:blur(16px)}
+.dialog:has(.fit-assistant)>.dialog-head h2{font-family:inherit;font-size:18px;font-weight:500;line-height:1.5}
+.dialog:has(.fit-assistant)>h3{font-family:inherit;font-size:16px;margin:20px 0 12px}
+.fit-assistant{font-size:13px;line-height:1.7;color:var(--ink)}
+.fit-assistant .fit-assistant-intro{margin:8px 0 16px;color:var(--muted);font-size:13px;line-height:1.7}
+.fit-assistant-modes{display:flex;gap:4px;padding:4px;background:var(--sage);border:1px solid var(--glass-line);border-radius:12px;margin-bottom:18px}
+.fit-assistant-modes>button{flex:1;min-width:0;min-height:44px;background:transparent;border:0;border-radius:8px;font-size:13px;padding:8px;color:var(--muted)}
+.fit-assistant-modes>button[aria-pressed=true]{background:var(--glass-surface);box-shadow:var(--glass-edge);color:var(--ink)}
+.fit-assistant-body label{display:grid;gap:7px;font-size:13px;min-width:0}
+.fit-assistant :is(select,input){width:100%;height:44px;min-height:44px;border:1px solid var(--glass-line);border-radius:9px;background:var(--glass-surface);padding:8px 10px;color:var(--ink);font-size:16px;box-shadow:var(--glass-edge)}
+.fit-assistant-result{border:1px solid var(--glass-line);background:var(--glass-surface);border-radius:12px;padding:16px;margin-block:16px}
+.fit-assistant .fit-assistant-result p,.fit-assistant-pending p{margin:0 0 12px;font-size:13px;line-height:1.7;color:var(--muted)}
+.fit-assistant .fit-assistant-result p:last-child{margin-bottom:0}
+.fit-assistant-kicker{display:block;font-size:12px;color:var(--muted)}
+.fit-assistant-size{display:block;font-size:40px;line-height:1.3;margin-block:6px 10px;font-variant-numeric:tabular-nums;text-align:center}
+.fit-assistant .button{font-size:13px;min-height:44px;padding:10px 14px;border-radius:9px}
+.fit-assistant .fit-assistant-privacy{font-size:11px;line-height:1.7;color:var(--muted);margin:16px 0}
+.fit-assistant-pending{padding:14px;border:1px solid var(--glass-line);border-radius:10px;background:var(--glass-surface)}
+.fit-assistant-pending .text-link{font-size:12px;min-height:44px}
+.fit-assistant-measures{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-block:16px}
+.fit-assistant-matches{display:flex;flex-wrap:wrap;gap:8px}
+.fit-guide-details{border-top:1px solid var(--glass-line);margin-top:20px}
+.fit-guide-details>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:52px;font-size:13px;list-style:none;cursor:pointer}
+.fit-guide-details>summary::-webkit-details-marker{display:none}
+.fit-guide-details>summary:after{content:'+';font-size:20px;color:var(--accent)}
+.fit-guide-details[open]>summary:after{content:'−'}
+.dialog.sheet .fit-guide-details h3{font-size:17px}.dialog.sheet .fit-guide-details p{font-size:13px;line-height:1.8}
+@media(max-width:480px){.dialog.sheet:has(.fit-assistant){width:100%;border-radius:0;padding-inline:16px}.dialog:has(.fit-assistant)>.dialog-head{margin-inline:-16px}.fit-assistant-result{padding:14px}.fit-assistant-measures{grid-template-columns:1fr}}
+@media(prefers-reduced-transparency:reduce){.dialog:has(.fit-assistant)>.dialog-head{background:var(--quiet-paper);backdrop-filter:none}}

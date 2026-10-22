@@ -1,0 +1,65 @@
+
+/* Aulla refinement: immediate gallery controls and compact operational UI. */
+.editorial-hero{padding-top:24px}
+.editorial-heading{margin-bottom:18px}
+.editorial-panel{border-radius:12px}
+.editorial-look{min-height:520px}
+.editorial-model{object-fit:contain;object-position:center top;padding-bottom:70px}
+.editorial-look-bottom{padding:18px}
+.editorial-look-bottom h2{font-size:28px;margin:5px 0 12px}
+.editorial-look-top{padding:18px;font-size:11px}
+.editorial-action{padding:10px 16px;min-height:44px;border-radius:8px}
+.editorial-preview-note{font-size:11px}
+.editorial-cut-image{max-height:340px}
+.editorial-detail-image{height:280px;border-radius:8px}
+.editorial-navigation .icon-button{width:44px;height:44px;min-width:44px;border:1px solid var(--line);border-radius:50%;background:var(--surface)}
+.editorial-navigation p{min-width:140px;justify-content:center}
+.hero-image-error{position:absolute;inset:80px 20px 160px;display:grid;place-content:center;text-align:center}
+.hero-image-error button{padding:12px;color:var(--ink);background:var(--surface);border-radius:6px}
+.admin-page{max-width:1120px;padding-top:24px;padding-bottom:110px}
+.admin-page .admin-demo{font-size:11px;line-height:1.8;margin-bottom:20px;padding:10px 14px}
+.admin-page .admin-tabs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;padding:5px;overflow:visible;background:var(--sage);border-radius:10px}
+.admin-page .admin-tabs button{min-height:44px;padding:8px 6px;font-size:12px;border-radius:6px;white-space:normal}
+.admin-page .section-heading h2{font-size:23px}
+.admin-page .section-heading label{font-size:12px}
+.admin-page .section-heading select{font-size:13px;min-height:44px;border-radius:6px}
+.admin-search{margin:0 0 16px}
+.admin-search label{display:block;font-size:12px;margin-bottom:6px}
+.admin-search>div{display:flex;align-items:center;gap:12px}
+.admin-search input{min-width:0;flex:1;max-width:420px;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;font-size:14px;direction:ltr;text-align:start;background:var(--surface)}
+.admin-search span{font-size:12px;color:var(--muted);white-space:nowrap}
+.admin-page .admin-stats{border-block:1px solid var(--line);gap:0}
+.admin-page .admin-stats>div{background:transparent;border:0;border-radius:0;padding:16px 10px}
+.admin-page .admin-stats>div+div{border-inline-start:1px solid var(--line)}
+.admin-page .finance-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.admin-page .finance-grid strong{font-variant-numeric:tabular-nums}
+.admin-page .admin-order:focus-visible,.admin-tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:800px){
+ .editorial-hero{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:20px 16px}
+ .editorial-heading{grid-column:1/-1;margin:0 0 4px;order:0}
+ .editorial-heading h1{font-size:28px}
+ .editorial-triptych{display:contents}
+ .editorial-look{order:1;grid-column:1/-1;grid-row:auto;min-height:430px}
+ .editorial-model{object-fit:contain;padding:0 0 90px;background:transparent}
+ .editorial-look-bottom h2{font-size:25px}
+ .editorial-navigation{order:2;grid-column:1/-1;margin:0;justify-content:space-between;padding:0 4px}
+ .editorial-cut,.editorial-detail{order:3;padding-bottom:12px}
+ .editorial-panel>h2{font-size:15px;padding:14px 12px 0}
+ .editorial-cut-image{height:175px;padding:8px}
+ .editorial-detail-image{height:175px;margin:8px 10px}
+ .editorial-caption{font-size:13px;padding:4px 12px}
+ .editorial-detail h3{font-size:16px;margin:12px}
+ .editorial-detail p{font-size:12px;margin:0 12px}
+ .editorial-detail-link{margin:8px 12px 0}
+ .editorial-sizes{padding:4px 12px}
+ .admin-page .admin-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .admin-page .finance-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .admin-page .admin-order{padding:12px}
+}
+@media(max-width:380px){.editorial-look{min-height:400px}.editorial-heading h1{font-size:25px}.editorial-cut-image,.editorial-detail-image{height:150px}}
+@media(prefers-reduced-motion:no-preference){
+ .editorial-model,.editorial-cut-image img,.editorial-detail-image img{animation:editorial-reveal .28s cubic-bezier(.23,1,.32,1) both}
+ .editorial-action,.editorial-navigation button,.admin-tabs button{transition:background-color .16s,transform .16s}
+ .editorial-action:active,.editorial-navigation button:active{transform:scale(.97)}
+}
+@media(prefers-reduced-motion:reduce){.editorial-hero *{animation:none!important;transition:none!important}}

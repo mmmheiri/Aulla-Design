@@ -1,0 +1,12 @@
+[build]
+command = "npm run build"
+publish = ".next"
+
+[build.environment]
+NODE_VERSION = "24"
+
+# Next.js is detected and adapted automatically by Netlify. No SPA catch-all.
+[[headers]]
+for = "/*"
+[headers.values]
+X-Robots-Tag = "noindex, nofollow, noarchive"

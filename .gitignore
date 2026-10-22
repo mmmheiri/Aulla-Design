@@ -1,0 +1,34 @@
+node_modules/
+.next/
+out/
+.research/
+.source-home.tmp
+.playwright-mcp/
+test-results/
+.impeccable/cache/
+.impeccable/questions/
+.impeccable/review/
+*.tsbuildinfo
+.taste-skill/
+**/.hyperframes/
+**/.thumbnails/
+**/render-*.log
+
+.env
+.env.local
+.env.*.local
+.data/
+.env.*
+!.env.example
+# Preserve private original inputs locally, outside version control.
+/photo/
+/*.zip
+/*_n.jpg
+/*_n (1).jpg
+/179*.jpg
+/Stories*
+/Cas-abaya-size-chart-for-abaya.webp
+/public/fonts/thmanyah/
+
+# Local Netlify folder
+.netlify

@@ -1,0 +1,25 @@
+.fabric-picker { border-block: 1px solid var(--line); padding-block: 22px; margin-block: 24px; }
+.fabric-picker-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+.fabric-picker-heading h3 { margin:0; font-size:16px; font-weight:500; }
+.fabric-picker-heading > span,.fabric-colour-note { font-size:12px; color:var(--muted); line-height:1.9; }
+.fabric-picker .fabric-colour-note { margin-block:8px 14px; max-width:65ch; font-size:12px; line-height:1.7; }
+.fabric-tools { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:end; gap:12px; }
+.fabric-tools label { display:grid; gap:6px; font-size:12px; max-width:200px; }
+.fabric-tools input { width:100%; min-height:44px; font-size:16px; border:1px solid var(--line-strong); border-radius:8px; padding:8px 12px; background:var(--surface); color:var(--ink); }
+.fabric-tools > button { min-height:44px; font-size:12px; }
+.fabric-pages { display:flex; justify-content:center; margin-block:4px; }
+.fabric-page-dot { display:grid; place-items:center; width:44px; height:44px; padding:0; border:0; background:transparent; border-radius:50%; }
+.fabric-page-dot span { width:6px; height:6px; border-radius:8px; background:var(--line-strong); }
+.fabric-page-dot[aria-pressed=true] span { width:18px; background:var(--ink); }
+.fabric-colour-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(44px,1fr)); gap:8px; max-height:252px; overflow:auto; overscroll-behavior:contain; padding:4px; scrollbar-width:thin; }
+.fabric-swatch { display:block; min-width:44px; height:58px; padding:0; overflow:hidden; border:1px solid var(--line); border-radius:5px; background:var(--surface); color:var(--ink); font-size:11px; font-weight:400; line-height:1.2; }
+.fabric-swatch-colour { display:block; width:100%; height:34px; }
+.fabric-swatch-label { display:block; line-height:22px; text-align:center; font-variant-numeric:tabular-nums; }
+.fabric-swatch[aria-pressed="true"] { border-color:var(--ink); outline:2px solid var(--ink); outline-offset:1px; }
+.fabric-selection { position:static; display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:8px; padding-top:8px; border-top:1px solid var(--line); min-height:44px; font-size:12px; line-height:1.6; }
+.fabric-selection-chip { width:20px; height:20px; border:1px solid var(--line-strong); border-radius:50%; flex-shrink:0; }
+.fabric-selection button { min-height:44px; font-size:12px; margin-inline-start:auto; }
+.fabric-colour-empty { padding:24px 0; font-size:14px; }
+.fabric-original-chart { display:block; max-width:100%; height:auto; margin-block:16px; }
+@media (hover:hover) and (pointer:fine) { .fabric-swatch:hover { border-color:var(--line-strong); background:var(--sage); } }
+@media (prefers-reduced-motion:no-preference) { .fabric-swatch { transition:background-color 140ms,border-color 140ms; } }

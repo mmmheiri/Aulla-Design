@@ -1,0 +1,53 @@
+/* Existing Aulla palette and glass controls, with less chrome before the garments. */
+.collection-tools{margin-block:20px 16px;font-size:13px}
+.collection-tools-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:stretch}
+.collection-search{display:flex;align-items:center;gap:10px;padding-inline:12px;background:var(--glass-surface);border:1px solid var(--glass-line);border-radius:10px;min-width:0}
+.collection-search>svg{width:18px;height:18px;flex-shrink:0;color:var(--muted)}
+.collection-search>input{border:0;background:transparent;box-shadow:none;min-width:0;width:100%;height:44px;padding:8px 0;font-size:16px;color:var(--ink);border-radius:9px}
+.collection-search:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+.collection-search input:focus-visible{outline:none}
+.collection-search input::placeholder{color:var(--muted);opacity:1}
+.collection-refine{display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--glass-line);border-radius:10px;background:var(--glass-surface);color:var(--ink);font-size:13px;min-height:46px;padding:8px 14px}
+.collection-refine>svg{width:17px;height:17px;flex-shrink:0}.collection-refine>svg:last-child{width:14px;transform:rotate(90deg)}
+.collection-refine[aria-expanded=true]>svg:last-child{transform:rotate(-90deg)}
+.collection-refine[aria-expanded=true]{background:var(--sage);border-color:var(--line-strong)}
+.collection-filter-count{display:inline-grid;place-items:center;min-width:20px;height:20px;border-radius:50%;background:var(--ink);color:var(--surface);font-size:11px;margin-inline-start:6px}
+.collection-refine-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto auto;align-items:end;gap:16px;padding:18px 0 8px}
+.collection-refine-panel[hidden]{display:none}
+.collection-refine-panel>label{display:grid;gap:7px;font-size:12px;min-width:0}
+.collection-refine-panel select{width:100%;min-height:44px;border:1px solid var(--glass-line);border-radius:9px;background:var(--glass-surface);padding:8px 10px;font-size:16px;color:var(--ink)}
+.collection-saved{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;background:transparent;border:1px solid var(--line);border-radius:9px;padding:8px 12px;font-size:12px;color:var(--ink)}
+.collection-saved>svg{width:17px;height:17px}.collection-saved[aria-pressed=true]{background:var(--sage);border-color:var(--accent)}
+.collection-refine-done{min-height:44px;display:flex;align-items:center;justify-content:center;gap:7px;font-size:12px;padding:8px}.collection-refine-done svg{width:16px;height:16px}
+.collection-results{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:44px;color:var(--muted);font-size:12px}
+.collection-results p{font-size:inherit;margin:0}.collection-results button{display:flex;align-items:center;gap:8px;min-height:44px;font-size:12px;padding-inline:4px}.collection-results svg{width:14px;height:14px}
+.source-collection>.source-intro{max-width:56ch;margin-bottom:18px}.source-collection>.collection-shortcuts{margin-bottom:0}
+.source-card-body>a:first-child{min-height:44px;display:flex;align-items:center;min-width:0}.source-card-body>a:first-child h2{margin:0;line-height:1.4;text-wrap:balance}
+.source-card-body{row-gap:2px}.source-card-body .source-size-note{line-height:1.6;overflow-wrap:anywhere;margin-block:0 6px}
+.source-card .source-card-action{min-height:44px}.source-card-body .card-colour-heading button{min-height:44px}
+[dir=ltr] :is(.source-card-action,.cart-checkout-link)>svg{transform:scaleX(-1)}
+.source-info>h1{text-wrap:balance}.source-info .source-options{margin-block:24px 20px}
+.source-info .source-options legend{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0;margin-bottom:8px}
+.source-info .source-options legend .source-size-guide-link{min-height:44px;padding:6px 0;white-space:nowrap}
+.source-info [aria-invalid=true]{border-color:var(--danger);outline-color:var(--danger)}
+.quote-recovery{display:grid;gap:8px;margin-block:16px}.quote-recovery .text-link{min-height:44px;justify-self:start}.quote-recovery p{margin:0}
+.checkout-step-body .checkout-piece small{line-height:1.6}.checkout-summary .order-summary>.text-link{min-height:44px;display:inline-flex;align-items:center}
+.atelier-login .login-password{position:relative;display:block}.atelier-login .login-password input{width:100%;padding-inline-end:72px}
+.login-password-toggle{position:absolute;inset-inline-end:4px;top:0;min-height:44px;min-width:64px;padding:8px;background:transparent;border:0;color:var(--ink);font-size:12px}
+.atelier-login .login-code-note{margin:0;font-size:12px;color:var(--muted)}
+.atelier-tools .text-link{min-height:44px}.atelier-sync{font-size:11px;color:var(--muted);margin-top:6px}
+@media(hover:hover){.collection-refine:hover,.collection-saved:hover{background:var(--sage)}}
+@media(max-width:760px){
+ .collection-tools{margin-block:16px 12px}.collection-tools-row{gap:8px;grid-template-columns:minmax(0,1fr) 142px}
+ .collection-refine{font-size:12px;padding-inline:10px;gap:6px}.collection-refine>svg:last-child{display:none}
+ .collection-refine-panel{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px 10px;padding-block:16px 6px}
+ .collection-results{font-size:11px}.collection-results button{font-size:11px}
+ .source-collection>.page-heading{margin-bottom:10px}.source-collection>.source-intro{font-size:13px;line-height:1.7;margin-bottom:14px}
+ .source-collection>.collection-shortcuts{margin-top:12px;padding-bottom:4px}
+ .source-card-body>a:first-child h2{font-size:16px;letter-spacing:-.015em}.source-card-body{padding-top:4px}
+ .source-detail>.text-link:first-child{display:inline-flex;align-items:center;min-height:44px}
+ .source-info .source-options{margin-block:18px}.source-info .source-options legend{font-size:13px}
+ .source-purchase{bottom:calc(82px + env(safe-area-inset-bottom));scroll-margin-block:110px}
+}
+@media(max-width:359px){.collection-tools-row{grid-template-columns:minmax(0,1fr) 130px;gap:6px}.collection-refine{font-size:11px;padding-inline:7px}.collection-search{padding-inline:9px;gap:6px}.collection-search input{font-size:16px}.source-card-body>a:first-child h2{font-size:15px}}
+@media(prefers-reduced-transparency:reduce){.collection-search,.collection-refine,.collection-refine-panel select{background:var(--surface)}}

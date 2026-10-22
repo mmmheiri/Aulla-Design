@@ -1,0 +1,46 @@
+{
+  "name": "aulla-design-preview",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 8826",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 8826",
+    "db:init": "node scripts/server/init.mjs",
+    "test:server": "node --test tests/server-mvp.test.mjs",
+    "worker": "node scripts/server/worker.mjs",
+    "typecheck": "tsc --noEmit",
+    "sizes:check": "node --experimental-strip-types scripts/size-charts.mjs check",
+    "sizes:import": "node --experimental-strip-types scripts/size-charts.mjs import",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "test:browser": "node scripts/browser-qa.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/noto-sans-arabic": "5.3.0",
+    "@fontsource/noto-naskh-arabic": "5.3.0",
+    "@libsql/client": "^0.18.0",
+    "@netlify/database": "^2.0.1",
+    "leaflet": "^1.9.4",
+    "lottie-web": "5.13.0",
+    "motion": "14.4.0",
+    "next": "16.4.2",
+    "qrcode.react": "^4.2.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "@netlify/database-dev": "^1.0.1",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "0.186.0",
+    "jsqr": "^1.4.0",
+    "playwright": "^1.56.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,20 @@
+.social-videos{padding-block:32px;color:var(--ink)}
+.social-videos .section-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.social-videos h2{font-size:clamp(22px,2.4vw,32px);font-weight:500;margin:0}
+.social-videos a{font-size:13px;color:var(--ink);text-underline-offset:5px}
+.social-empty{font-size:14px;color:var(--muted);padding-block:16px;border-bottom:1px solid var(--line)}
+.social-video-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:20px}
+.social-video-frame{position:relative;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:var(--sage)}
+.social-video-frame video{display:block;width:100%;height:100%;object-fit:cover}
+.social-video-card p{font-size:14px;line-height:1.7}
+.social-pause{position:absolute;inset-inline-end:10px;bottom:10px;width:44px;height:44px;border-radius:50%;background:var(--ink);color:white;border:0}
+.social-videos a:focus-visible,.social-pause:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.named-colour-picker{border:0;padding:0;margin:18px 0}.named-colour-picker>div{display:flex;gap:10px;margin-top:10px}
+.named-colour-card{position:relative;display:grid!important;gap:8px;padding:10px;border:1px solid var(--line);border-radius:8px;min-width:100px;font-size:13px;cursor:pointer}
+.named-colour-card input{position:absolute;opacity:0;inset:0;width:100%;height:100%;cursor:pointer}
+.named-colour-card:has(input:checked){border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.named-colour-card:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:3px}
+.named-colour-swatch{height:44px;border-radius:4px;display:block}
+@media(max-width:760px){.social-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+@media(prefers-reduced-motion:reduce){.social-pause{display:none}}
+.mobile-tabs .nav-brand-symbol{display:block;width:28px;height:26px;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}

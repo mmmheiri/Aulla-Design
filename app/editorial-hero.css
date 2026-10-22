@@ -1,0 +1,73 @@
+/* Open canvas: the garment silhouette is the focal point. */
+.aulla-hero{max-width:1288px;margin-inline:auto;padding:42px 24px 30px;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);grid-template-rows:1fr auto;column-gap:48px;color:var(--atelier-ink);isolation:isolate}
+.aulla-hero-copy{align-self:center;padding-block:26px 36px}
+.aulla-hero-copy h1{font-size:clamp(40px,4.5vw,64px);line-height:1.08;font-weight:400;margin:0;text-wrap:balance}
+.aulla-hero-copy>p{font-size:15px;line-height:1.65;max-width:33ch;margin:20px 0 10px;color:var(--muted)}
+.aulla-hero-collection{display:inline-flex;align-items:center;gap:14px;min-height:44px;font-size:14px;text-decoration:none}
+.aulla-hero-collection svg{width:16px;height:16px}
+.aulla-hero-gallery{grid-column:2;grid-row:1 / 3;min-width:0;align-self:center}
+.aulla-hero-stage{position:relative;height:420px;touch-action:pan-y;user-select:none;overflow:clip}
+.aulla-hero-monogram{position:absolute;width:64%;height:68%;left:18%;top:14%;object-fit:contain;opacity:.035;pointer-events:none}
+.aulla-hero-piece{position:absolute;top:0;left:50%;width:280px;height:390px;margin-left:-140px;transform:translateX(calc(var(--offset) * 170px)) translateY(var(--drop)) rotate(calc(var(--offset) * 9deg)) scale(var(--scale));transform-origin:50% 75%;opacity:0;pointer-events:none;transition:transform 1.1s cubic-bezier(.22,1,.36,1),opacity .5s ease}
+.aulla-hero-piece[data-visible=true]{opacity:1;pointer-events:auto}
+.aulla-hero-piece[data-active=true]{opacity:1}
+.aulla-hero-garment{display:block;object-fit:contain;width:100%;height:100%;pointer-events:none}
+.aulla-hero-image-link,.aulla-hero-select{position:absolute;inset:0;display:block;width:100%;height:100%;border:0;padding:0;background:transparent;border-radius:8px;cursor:pointer}
+.aulla-hero-controls{display:flex;align-items:center;justify-content:space-between;width:152px;margin:0 auto;padding:2px;background:rgb(255 255 255 / .64);border-radius:28px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:inset 0 0 0 1px rgb(255 255 255 / .8)}
+.aulla-hero-controls button{display:grid;place-items:center;width:44px;height:44px;flex-shrink:0;border:0;background:transparent;border-radius:50%;padding:0;cursor:pointer;transition:background .2s,transform .2s}
+.aulla-hero-controls p{margin:0;font-size:13px;font-variant-numeric:tabular-nums}
+.aulla-hero-controls svg{width:18px;height:18px}
+.aulla-hero-prev svg{transform:rotate(180deg)}
+.aulla-hero-product{padding-bottom:18px;max-width:390px;min-width:0}
+.aulla-hero-product-line{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.aulla-hero-product-line h2{font-size:24px;font-weight:400;line-height:1.3;margin:0;text-transform:none;text-wrap:balance}
+.aulla-hero-product-line .money{font-size:18px;white-space:nowrap}
+.aulla-hero-sizes{font-size:13px;color:var(--muted);margin:8px 0 18px;min-height:21px}
+.aulla-hero-sizes bdi{margin-inline-start:10px}
+.aulla-hero-action{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:46px;padding:10px 20px;background:var(--atelier-ink);color:var(--surface);border-radius:6px;font-size:14px;text-decoration:none;transition:background .2s,transform .2s}
+.aulla-hero-action svg{width:16px;height:16px}
+.aulla-hero-error{position:relative;z-index:4;display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;font-size:14px;text-align:center;pointer-events:none}
+.aulla-hero-error button{pointer-events:auto;min-height:44px;border:0;border-radius:6px;padding:8px 16px;background:var(--surface);cursor:pointer}
+.aulla-hero :is(a,button):focus-visible{outline:2px solid var(--atelier-blue);outline-offset:3px}
+html[dir=rtl] .aulla-hero-prev svg{transform:none}
+html[dir=rtl] .aulla-hero-next svg,html[dir=rtl] .aulla-hero-action svg,html[dir=rtl] .aulla-hero-collection svg{transform:rotate(180deg)}
+html[dir=rtl] .aulla-hero-copy h1{line-height:1.3}
+@media(hover:hover) and (pointer:fine){
+.aulla-hero-controls button:hover{background:var(--atelier-wash)}
+.aulla-hero-collection:hover{color:var(--atelier-blue)}
+.aulla-hero-action:hover{background:var(--accent);transform:translateY(-2px)}
+.aulla-hero-piece[data-visible=true]:not([data-active=true]):hover{opacity:1}
+}
+.aulla-hero-controls button:active,.aulla-hero-action:active{transform:scale(.97)}
+@media(max-width:1000px) and (min-width:761px){
+.aulla-hero{column-gap:20px}
+.aulla-hero-piece{width:220px;height:340px;margin-left:-110px;transform:translateX(calc(var(--offset) * 115px)) translateY(var(--drop)) rotate(calc(var(--offset) * 9deg)) scale(var(--scale))}
+.aulla-hero-stage{height:365px}
+.aulla-hero-product-line{align-items:start;flex-direction:column;gap:6px}
+}
+@media(max-width:760px){
+.aulla-hero{padding:20px 16px 12px;display:flex;flex-direction:column;gap:0}
+.aulla-hero-copy{text-align:center;align-self:stretch;padding:0}
+.aulla-hero-copy h1{font-size:34px;line-height:1.08}
+.aulla-hero-copy>p{font-size:13px;max-width:32ch;margin:12px auto 0;line-height:1.6}
+.aulla-hero-collection{font-size:13px;gap:10px;margin-top:2px}
+.aulla-hero-gallery{width:100%;margin-top:8px}
+.aulla-hero-stage{height:266px;margin-inline:-8px}
+.aulla-hero-piece{width:176px;height:248px;margin-left:-88px;transform:translateX(calc(var(--offset) * 112px)) translateY(var(--drop)) rotate(calc(var(--offset) * 9deg)) scale(var(--scale))}
+.aulla-hero-controls{width:144px}
+.aulla-hero-product{width:100%;max-width:390px;margin:16px auto 0;padding:0}
+.aulla-hero-product-line h2{font-size:21px}
+.aulla-hero-product-line .money{font-size:17px}
+.aulla-hero-sizes{font-size:12px;margin:6px 0 12px}
+.aulla-hero-action{width:100%;min-height:44px;padding:10px 16px;font-size:13px}
+html[dir=rtl] .aulla-hero-copy h1{line-height:1.2;font-size:32px}
+}
+@media(max-width:360px){
+.aulla-hero-copy h1{font-size:30px}
+.aulla-hero-stage{height:246px}
+.aulla-hero-piece{width:162px;height:232px;margin-left:-81px;transform:translateX(calc(var(--offset) * 94px)) translateY(var(--drop)) rotate(calc(var(--offset) * 9deg)) scale(var(--scale))}
+.aulla-hero-product-line h2{font-size:19px}
+}
+@media(prefers-reduced-motion:reduce){
+.aulla-hero *, .aulla-hero *::before, .aulla-hero *::after{animation:none!important;transition:none!important}
+}
